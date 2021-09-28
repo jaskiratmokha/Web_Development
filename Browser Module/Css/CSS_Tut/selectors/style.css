@@ -1,0 +1,28 @@
+/* universal selectors */
+*{
+    background-color: yellow;
+}
+/* element selector */
+h3{
+    color: red;
+}
+/* class selector */
+.h12{
+    color: blue;
+}
+/* id selector */
+#para{
+    color: blueviolet;
+}
+/* pseudo class */
+#yt:hover{
+    color: aqua;
+}
+/* pseudo element */
+#para::first-line{
+    color: blue;
+}
+/* attribute selector */
+a[href="https://www.google.com/"]{
+    color: brown;
+}
