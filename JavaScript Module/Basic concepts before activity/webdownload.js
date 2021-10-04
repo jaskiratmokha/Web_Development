@@ -3,7 +3,7 @@ let minimist = require("minimist");
 let axios = require("axios");
 let fs= require("fs");
 
-// node webdownload.js --url=https://github.com/Jas-Script --dest=dest.html
+// node webdownload.js --url=https://www.pepcoding.com/resources/ --dest=pepc.html
 args=minimist(process.argv);
 let dwnldPromise = axios.get(args.url);
 dwnldPromise.then(function(response){

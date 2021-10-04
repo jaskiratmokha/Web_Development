@@ -1,0 +1,2282 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+<head>
+   <!-- Global site tag (gtag.js) - Google Analytics -->
+   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-109728305-1"></script>
+   <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() { dataLayer.push(arguments); }
+      gtag('js', new Date());
+
+      gtag('config', 'UA-109728305-1');
+   </script>
+   <meta name="google-site-verification" content="p2kNyH1NDKhkZLl2aBdmmvosWqHZOxD0rmvS1n8LcDA" />
+   <meta name="google-signin-client_id"
+      content="458958442206-nstdi8m8r1ru8qbfd9qmpmhllq5gbui7.apps.googleusercontent.com">
+      
+      
+      
+   <title>PepCoding | Online resources of data structure and advanced algorithms</title>
+   <link rel="shortcut icon" href="/images/favicon.ico">
+   <link rel="apple-touch-icon-precomposed" href="/images/apple-touch-icon.png" />
+   <meta property="og:url" content="https://www.pepcoding.com/resources/">
+   <meta property="title" content="PepCoding | Online resources of data structure and advanced algorithms">
+   <meta property="og:title" content="PepCoding | Online resources of data structure and advanced algorithms">
+   <meta property="keywords" content="">
+   <meta property="og:image" content="https://www.pepcoding.com/images/logo.png">
+   <meta property="og:alt" content="pepcoding">
+   <meta property="og:type" content="website" />
+   <meta name="description" content="Free videos on Data Structures, Basic C++ and JAVA programs, graphs, trees, stack and queues, dynamic Programming and competitive coding. Free online videos of Data Structures and practice coding questions. Free Notes on operating system, DBMS, Puzzles, system designs and many more. ">
+   <meta property="og:description" content="Free videos on Data Structures, Basic C++ and JAVA programs, graphs, trees, stack and queues, dynamic Programming and competitive coding. Free online videos of Data Structures and practice coding questions. Free Notes on operating system, DBMS, Puzzles, system designs and many more. ">
+   <script type="application/ld+json">
+         {
+           "@context" : "http://schema.org",
+           "@type": "EducationalOrganization",
+           "name" : "Pepcoding",
+           "url" : "https://www.pepcoding.com",
+           "logo":"https://www.pepcoding.com/images/logo.png",
+           "description": "Free online videos of Data Structure using Java and C++. Best coding institute in Delhi, Best computer programming institute in Delhi, Best java training classes, Coding classes in Delhi, Coding courses in Delhi, best computer programming institute in Delhi-NCR, Delhi's best programming institute offers courses in Java, C++, Web Development, Nodejs.",
+          "sameAs" : [
+            "https://www.facebook.com/pepcoding/",
+            "https://www.youtube.com/results?search_query=pepcoding",
+            "https://www.instagram.com/pepcoding/",
+            "https://in.linkedin.com/company/pepcoding-education",
+            "https://twitter.com/pepcoding"
+            ],
+         
+          "openingHours": "Mo 08:30-21:30 Tu, We 08:00-21:30 Th, Fr, Sa, Su 08:00-09:30",
+           "contactPoint": {
+             "@type": "ContactPoint",
+             "telephone": "011-40194461",
+             "contactType": "Reception desk"
+           },
+          "address": {
+             "@type": "PostalAddress",
+             "streetAddress": "PepCoding, 3rd Floor, 15 Vaishali, Pitampura Opposite",
+             "addressLocality": "Pitampura",
+             "addressRegion": "Delhi",
+             "postalCode": "110034",
+             "addressCountry": "India"
+           },
+            "hasMap": "https://www.google.com/maps/place/PepCoding.com/@28.699367,77.138281,17z/data=!4m5!3m4!1s0x0:0x4fd0fdfc3f27ffaf!8m2!3d28.6993666!4d77.1382814?hl=en-US"
+         }
+      </script>
+   <link rel="stylesheet" href="/css/site.css?v1.2.7">
+   <link rel="stylesheet" href="/css/video.css?v1.2.7">
+   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans:300,400,500,700&display=swap" rel="stylesheet">
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body class=" resource theme1">
+   <header>
+         <nav>
+            <div class="nav-wrapper page-scrolled">
+               <div class="container med row  site-nav">
+                  <a href="https://www.pepcoding.com" class="brand-logo small">
+                     <img class="logo" src="/images/logo.png" alt="logo">
+                  </a>
+                  <div class="hide-on-med-and-down nav-breadcrumb">
+                        <a class='breadcrumb  ' data-target='ddls0' href="/resources/">
+                           home
+                        </a>
+                  </div>
+                  <ul id='ddlUserProfile' class="dropdown-content">
+                    <li>
+                      <a href="/profile" class="setting">
+                        <div class="row  col l12" style="height: 100%;padding: 0px;margin: 0px;display: flex;flex-direction: row;align-items: center;justify-content: flex-end;">
+                          <i class="col l4 s2 m2 svg-user svg-header"></i>
+                          <span class="col l8 s8 m8 lp-dropdown">Profile</span>
+                        </div>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="setting" onclick="PEP.Utilities.signOut();">
+                          <div class="row  col l12" style="height: 100%;padding: 0px;margin: 0px;display: flex;flex-direction: row;align-items: center;justify-content: flex-end;">
+                            <i class="col l4 s2 m2 svg-logout svg-header"></i>
+                          <span class="col l8 s8 m8 lp-dropdown">Logout</span>
+                        </div>
+                      </a>
+                    </li>
+                  </ul>                  <ul id='ddlFeatures' class="dropdown-content">
+                     <li>
+                        <a href="#" class=" setting sidenav-trigger theme-cutomizer-trigger no-margin"
+                           data-target="editor-support-out" id="">
+                           <div class="row  col l12 no-padding no-margin"
+                              style="height: 100%;display: flex;flex-direction: row;align-items: center;justify-content: flex-end;">
+                              <i class="fa fa-code" aria-hidden="true"></i>
+                              <span class="col l8 s8 m8 lp-dropdown">Editor</span>
+                           </div>
+                        </a>
+                     </li>
+                  </ul>
+                     <a class="dashboard-user" href="/login">Login</a>
+                              <div class="changeTheme"  >
+                                          <i class="fa fa-sun-o  dropdown-trigger" href="#changeSiteTheme" style="    height: inherit;
+                                             line-height: inherit;"></i>
+                               </div>
+                             <ul id='changeSiteTheme' class='dropdown-content changeSiteTheme'>
+                                         <li>
+                                             <a href="#"  onclick="siteThemeSelect('theme1')">
+                                                <div class="row   " >
+                                                     <div class="col l1  heart theme1"></div> 
+                                                  <div class="col l4" >Theme1</div>
+                                                </div>
+                                             </a>
+                                          </li>
+                                          
+                                         <li>
+                                             <a href="#"  onclick="siteThemeSelect('theme2')">
+                                                <div class="row   " >
+                                                     <div class="col l1  heart theme2"></div> 
+                                                  <div class="col l4" >Theme2</div>
+                                                </div>
+                                             </a>
+                                          </li>
+                                           <li>
+                                             <a href="#"  onclick="siteThemeSelect('theme3')">
+                                                <div class="row   " >
+                                                     <div class="col l1  heart theme3"></div> 
+                                                  <div class="col l4" >Theme3</div>
+                                                </div>
+                                             </a>
+                                          </li>
+                                           <li>
+                                             <a href="#"  onclick="siteThemeSelect('theme4')">
+                                                <div class="row   " >
+                                                     <div class="col l1  heart theme4"></div> 
+                                                  <div class="col l4" >Theme4</div>
+                                                </div>
+                                             </a>
+                                          </li>
+                                       </ul>               </div>
+            </div>
+         </nav>
+   </header>
+   <main>
+      <div id="siteOverlay" class="loader-overlay hide">
+      </div>
+      <div id="siteLoader" class="loader hide">
+         <div class="preloader-wrapper active">
+            <div class="spinner-layer spinner-red-only">
+               <div class="circle-clipper left">
+                  <div class="circle"></div>
+               </div>
+               <div class="gap-patch">
+                  <div class="circle"></div>
+               </div>
+               <div class="circle-clipper right">
+                  <div class="circle"></div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <input type="hidden" id="isShowDoubtSupport" value="false">
+         <input type="hidden" id="tawkKey" value="5e1ef6557e39ea1242a4b602">
+      <div class="container full resources-home-summary">
+    <div class="section search-nav">
+        <div class="row section" style="margin-top: 0px !important;">
+            <div class="col l8 s12 m3 free-resources-intro">
+                <h1 class="bold center section-heading-l">
+                    <span class="underline"> Free Resources</span></h1>
+                <h4 class=" row col l12 center">  These
+                    courses are structured such that each student spends appropriate time on each topic to generate
+                    enough insight to tackle questions of any difficulty level. Each question is accompanied with an
+                    editor where you can submit your code for the given or even watch the solution video and the code in
+                    case you are unable to reach an optimal solution for the problem. </h3>
+
+                <blockquote style="margin: 1% 10% 1% 6%;"></blockquote>
+
+            </div>
+
+            <div class="col l4 s12  center">
+
+
+                <div class="row col l12 s12 m12">
+
+                    <a href="https://www.youtube.com/pepcoding" target="_blank">
+                        <div class="btn-contact center  btn-floating">
+                            <svg id="Layer_1" x="0px" y="0px" viewBox="0 0 461.001 461.001" xml:space="preserve"
+                                width="17px" height="17px">
+                                <g>
+                                    <path
+                                        d="M365.257,67.393H95.744C42.866,67.393,0,110.259,0,163.137v134.728  c0,52.878,42.866,95.744,95.744,95.744h269.513c52.878,0,95.744-42.866,95.744-95.744V163.137  C461.001,110.259,418.135,67.393,365.257,67.393z M300.506,237.056l-126.06,60.123c-3.359,1.602-7.239-0.847-7.239-4.568V168.607  c0-3.774,3.982-6.22,7.348-4.514l126.06,63.881C304.363,229.873,304.298,235.248,300.506,237.056z"
+                                        data-original="#F61C0D" class="active-path" fill="#F61C0D"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/company/pepcoding-education/" target="_blank">
+                        <div class="btn-contact center  btn-floating ">
+                            <svg height="17px" viewBox="0 0 24 24" width="17px">
+                                <g>
+                                    <g fill="#0077b5">
+                                        <path
+                                            d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z"
+                                            data-original="#0077B5" class="active-path" fill="#0077B5"></path>
+                                        <path d="m.396 7.977h4.976v16.023h-4.976z" data-original="#0077B5"
+                                            class="active-path" fill="#0077B5">
+                                        </path>
+                                        <path
+                                            d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z"
+                                            data-original="#0077B5" class="active-path" fill="#0077B5"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="https://www.facebook.com/pepcoding/" target="_blank">
+                        <div class="btn-contact center btn-floating ">
+                            <svg x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve" width="17px" height="17px">
+                                <g>
+                                    <path
+                                        d="M134.941,272.691h56.123v231.051c0,4.562,3.696,8.258,8.258,8.258h95.159  c4.562,0,8.258-3.696,8.258-8.258V273.78h64.519c4.195,0,7.725-3.148,8.204-7.315l9.799-85.061c0.269-2.34-0.472-4.684-2.038-6.44  c-1.567-1.757-3.81-2.763-6.164-2.763h-74.316V118.88c0-16.073,8.654-24.224,25.726-24.224c2.433,0,48.59,0,48.59,0  c4.562,0,8.258-3.698,8.258-8.258V8.319c0-4.562-3.696-8.258-8.258-8.258h-66.965C309.622,0.038,308.573,0,307.027,0  c-11.619,0-52.006,2.281-83.909,31.63c-35.348,32.524-30.434,71.465-29.26,78.217v62.352h-58.918c-4.562,0-8.258,3.696-8.258,8.258  v83.975C126.683,268.993,130.379,272.691,134.941,272.691z"
+                                        data-original="#385C8E" class="active-path" fill="#385C8E"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://www.instagram.com/pepcoding/" target="_blank">
+                        <div class="btn-contact center  btn-floating">
+                            <svg x="0px" y="0px" viewBox="0 0 512 512" xml:space="preserve" width="17px" height="17px">
+                                <g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M352,0H160C71.648,0,0,71.648,0,160v192c0,88.352,71.648,160,160,160h192c88.352,0,160-71.648,160-160V160    C512,71.648,440.352,0,352,0z M464,352c0,61.76-50.24,112-112,112H160c-61.76,0-112-50.24-112-112V160C48,98.24,98.24,48,160,48    h192c61.76,0,112,50.24,112,112V352z"
+                                                data-original="#000000" class="active-path" data-old_color="#000000"
+                                                fill="#D91616"></path>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <path
+                                                d="M256,128c-70.688,0-128,57.312-128,128s57.312,128,128,128s128-57.312,128-128S326.688,128,256,128z M256,336    c-44.096,0-80-35.904-80-80c0-44.128,35.904-80,80-80s80,35.872,80,80C336,300.096,300.096,336,256,336z"
+                                                data-original="#000000" class="active-path" data-old_color="#000000"
+                                                fill="#D91616"></path>
+                                        </g>
+                                    </g>
+                                    <g>
+                                        <g>
+                                            <circle cx="393.6" cy="118.4" r="17.056" data-original="#000000"
+                                                class="active-path" data-old_color="#000000" fill="#D91616">
+                                            </circle>
+                                        </g>
+                                    </g>
+                                </g>
+                            </svg>
+                        </div>
+                    </a>
+
+                    <a href="https://twitter.com/pepcoding" target="_blank">
+                        <div class="btn-contact center  btn-floating">
+                            <svg id="Layer_1" x="0px" y="0px" viewBox="0 0 410.155 410.155" xml:space="preserve"
+                                width="17px" height="17px">
+                                <g>
+                                    <path
+                                        d="M403.632,74.18c-9.113,4.041-18.573,7.229-28.28,9.537c10.696-10.164,18.738-22.877,23.275-37.067  l0,0c1.295-4.051-3.105-7.554-6.763-5.385l0,0c-13.504,8.01-28.05,14.019-43.235,17.862c-0.881,0.223-1.79,0.336-2.702,0.336  c-2.766,0-5.455-1.027-7.57-2.891c-16.156-14.239-36.935-22.081-58.508-22.081c-9.335,0-18.76,1.455-28.014,4.325  c-28.672,8.893-50.795,32.544-57.736,61.724c-2.604,10.945-3.309,21.9-2.097,32.56c0.139,1.225-0.44,2.08-0.797,2.481  c-0.627,0.703-1.516,1.106-2.439,1.106c-0.103,0-0.209-0.005-0.314-0.015c-62.762-5.831-119.358-36.068-159.363-85.14l0,0  c-2.04-2.503-5.952-2.196-7.578,0.593l0,0C13.677,65.565,9.537,80.937,9.537,96.579c0,23.972,9.631,46.563,26.36,63.032  c-7.035-1.668-13.844-4.295-20.169-7.808l0,0c-3.06-1.7-6.825,0.485-6.868,3.985l0,0c-0.438,35.612,20.412,67.3,51.646,81.569  c-0.629,0.015-1.258,0.022-1.888,0.022c-4.951,0-9.964-0.478-14.898-1.421l0,0c-3.446-0.658-6.341,2.611-5.271,5.952l0,0  c10.138,31.651,37.39,54.981,70.002,60.278c-27.066,18.169-58.585,27.753-91.39,27.753l-10.227-0.006  c-3.151,0-5.816,2.054-6.619,5.106c-0.791,3.006,0.666,6.177,3.353,7.74c36.966,21.513,79.131,32.883,121.955,32.883  c37.485,0,72.549-7.439,104.219-22.109c29.033-13.449,54.689-32.674,76.255-57.141c20.09-22.792,35.8-49.103,46.692-78.201  c10.383-27.737,15.871-57.333,15.871-85.589v-1.346c-0.001-4.537,2.051-8.806,5.631-11.712c13.585-11.03,25.415-24.014,35.16-38.591  l0,0C411.924,77.126,407.866,72.302,403.632,74.18L403.632,74.18z"
+                                        data-original="#76A9EA" class="active-path" fill="#76A9EA"></path>
+                                </g>
+                            </svg>
+
+                        </div>
+                    </a>
+
+                    <a href="https://www.quora.com/search?q=pepcoding" target="_blank">
+                        <div class="btn-contact center btn-floating ">
+                            <svg x="0px" y="0px" viewBox="0 0 427.671 427.671" xml:space="preserve" width="17px"
+                                height="17px">
+                                <g>
+                                    <path
+                                        d="M386.516,335.593c0,0-2.093,30.699-30.001,30.699c-21.553,0-36.272-16.439-50.055-37.786  c39.148-34.171,64.008-85.199,64.008-142.221C370.469,83.403,289.565,0,189.765,0S9.061,83.403,9.061,186.286  s80.904,186.286,180.704,186.286c18.112,0,35.595-2.759,52.092-7.871c20.871,33.157,47.366,62.97,88.843,62.97  c84.421,0,87.91-92.077,87.91-92.077h-32.094L386.516,335.593L386.516,335.593z M189.765,341.873  c-58.185,0-105.353-69.659-105.353-155.587S131.58,30.699,189.765,30.699s105.352,69.659,105.352,155.587  c0,34.169-7.464,65.759-20.108,91.426c-14.283-20.392-31.428-37.757-55.941-43.285c-43.485-9.805-80.933,9.768-92.794,19.536  l11.163,23.024c0,0,11.285-6.488,39.267-0.008c17.631,4.083,31.332,28.551,47.034,56.623  C213.08,338.962,201.653,341.873,189.765,341.873z"
+                                        data-original="#CF2217" class="active-path" fill="#CF2217"></path>
+                                </g>
+                            </svg>
+
+                        </div>
+                    </a>
+                    <a href="https://t.me/joinchat/RLq0aBpM0J-RyJBGF702Cg" target="_blank">
+                        <div class="btn-contact center btn-floating">
+                            <svg enable-background="new 0 0 24 24" height="16" viewBox="0 0 24 24" width="16">
+                                <path
+                                    d="m9.417 15.181-.397 5.584c.568 0 .814-.244 1.109-.537l2.663-2.545 5.518 4.041c1.012.564 1.725.267 1.998-.931l3.622-16.972.001-.001c.321-1.496-.541-2.081-1.527-1.714l-21.29 8.151c-1.453.564-1.431 1.374-.247 1.741l5.443 1.693 12.643-7.911c.595-.394 1.136-.176.691.218z"
+                                    fill="#039be5" />
+                            </svg>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <div class="col l4 s11 offset-s1 personalize-msg-outercard">
+                <div class="card innercard">
+                    <div class="card-content row">
+                        <div class="col l4 s4 m4">
+                            <img class="image  center " height="80px" width="80px" src="/images/doubt_support.svg">
+                        </div>
+                        <div class="col l8 s8 m8">
+                            <p class="no-margin">Do you need more personalize experience while solving question
+                                along with doubt support.</p>
+                            <a class="btn" href="/courses"
+                                target="_blank">
+                                <h4 class="bolder ">Check-Out</h4>
+                            </a>
+                        </div>                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class=" row ">
+            <div class="col l2 m8 s8 offset-l6 offset-s1 offset-m1   ">
+            </div>
+            <div class="col l8 m12 s12 flex-card">
+                <div class="card free-resource-card show-on-hover border-radius" id="12">
+                
+                    <div class="card-content no-padding">
+                        <div class="row  no-margin border-radius"> 
+                            <a href="/resources/online-java-foundation">
+                                <div class="col l3 s12 m12 left-section   " >
+                                    <img class="row center course-icon-svg" height="62" width="62" alt="Data Structures and Algorithms in Java &lt;div class&#x3D;&quot;row  center &quot; style&#x3D;&quot;font-weight: 400;padding-top: 2px;    font-size: .9rem;&quot;&gt;[Level 1 - Foundation]&lt;/div&gt;"
+                                        src="/data/courses/photo/dsa.svg">
+                                    <div class="row no-margin no-padding icon  ">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="fa fa-code   "> </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 311 Questions 
+                                        </span>
+                                    </div>
+                
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-video">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m12 no-padding bold"> 79 Topic Video's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-topic"></i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 375 Article's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-mcq">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 3 MCQ's
+                                        </span>
+                                    </div>
+                
+                                    <div class=" row user-info no-margin teacher-img">
+                                        <div class="col l4 s4 m4 no-margin no-padding">
+                                            <img class="circle" height="30px" width="30px"
+                                                data-src="/data/team/photo/sumeet_malik.jpg">
+                                        </div>
+                                        <div class="col l8 s8 m8 no-margin no-padding">
+                                            <p class=" bold no-margin teacher-name">Sumeet Malik</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="col l9 s12 m12 right-section">
+                                <div class="row">
+                                    <a href="/resources/online-java-foundation">
+                                        <h2 class="col l10 s12 m12 batch-name bolder no-margin truncate free-resources-course-name"
+                                            title="Data Structures and Algorithms in Java [Level 1 - Foundation]">Data Structures and Algorithms in Java <div class="row  center " style="font-weight: 400;padding-top: 2px;    font-size: .9rem;">[Level 1 - Foundation]</div></h2>
+                                    </a>
+                
+                                    <div class="col l2 s2 m2">
+                                        <div class="follow">
+                                            <img class="course-icon-svg" height="30" width="30" alt="Data Structures and Algorithms in Java &lt;div class&#x3D;&quot;row  center &quot; style&#x3D;&quot;font-weight: 400;padding-top: 2px;    font-size: .9rem;&quot;&gt;[Level 1 - Foundation]&lt;/div&gt;" src="/images/share.svg">
+                                            <span class="social-icons-on-hover ">
+                                                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <path
+                                                            d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-6.932 0-5.046 7.85-5.322 9h-3.487v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877c.188-2.824-.761-5.016 2.051-5.016z"
+                                                            fill="#3b5999" /></svg>
+                                                </a>
+                                                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <g fill="#0077b5">
+                                                            <path
+                                                                d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" />
+                                                            <path d="m.396 7.977h4.976v16.023h-4.976z" />
+                                                            <path
+                                                                d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" />
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                
+                                    <a href="/resources/online-java-foundation">
+                                        <div class="col l12 s12 m12 row no-padding">
+                                            <span class="col l4 s6 m6">
+                                                <img class="circle" height="25px" width="25px" src="/images/speed.svg">
+                                                &ensp; <span style="vertical-align: super;">200 Hours</span>
+                                            </span>
+                                            <span class="col l8 s6 m6">
+                                                <img class=" " height="25px" width="25px" src="/images/level.svg">
+                                                &ensp; <span style="vertical-align: super;">Level 1 [Beginner]</span>
+                                            </span>
+                                        </div>
+                                        <div class="col l12 s12 m12">
+                                            <h4 class="free-resouces-course-desc no-margin" style="line-height:1.4rem;">
+                                                This is for anybody who has not coded at-least 200 hours of data structures and algorithms. There are no pre-requisites, it starts from scratch. It will help you prepare a very strong foundation for later on solving on leetcode, geeksforgeeks, hackerrank and other online judges. Though the discussions are in Java, but the compiler supports other languages as well. You can watch the discussion in Java and submit in language of your choice.
+                                            </h4>
+                                        </div>
+                                    </a>
+                
+                                    <div class="col l6 s6 m4 offset-l5 offset-s5 offset-m8">
+                                        <br>
+                                        <a class="start-button  text-darken-1 bolder view-more" href="/resources/online-java-foundation">
+                                            Start
+                                            <span class="view-more-arrow"> ⟶</span>
+                                        </a>
+                                    </div>
+                                </div>
+                
+                                <div class="row hide   ">
+                                    <div class="col l12 right  ">
+                                        <a class=" btn btn-small  right" href="">Start</a></div>
+                                </div>
+                                <input type="hidden" id="courseCode12" value="online-java-foundation">
+                                <input type="hidden" id="courseMaster12" class="courseMasters" value="data-structures-and-algorithms">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card free-resource-card show-on-hover border-radius" id="67">
+                
+                    <div class="card-content no-padding">
+                        <div class="row  no-margin border-radius"> 
+                            <a href="/resources/data-structures-and-algorithms-in-java-levelup">
+                                <div class="col l3 s12 m12 left-section   " >
+                                    <img class="row center course-icon-svg" height="62" width="62" alt="Data Structures and Algorithms in Java &lt;div class&#x3D;&quot;row  center &quot; style&#x3D;&quot;font-weight: 400;padding-top: 2px;    font-size: .9rem;&quot;&gt;[Level 2 - LevelUp]&lt;/div&gt;"
+                                        src="/data/courses/photo/dsa_levelup.svg">
+                                    <div class="row no-margin no-padding icon  ">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="fa fa-code   "> </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 625 Questions 
+                                        </span>
+                                    </div>
+                
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-video">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m12 no-padding bold"> 14 Topic Video's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-topic"></i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 Article's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-mcq">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 MCQ's
+                                        </span>
+                                    </div>
+                
+                                    <div class=" row user-info no-margin teacher-img">
+                                        <div class="col l4 s4 m4 no-margin no-padding">
+                                            <img class="circle" height="30px" width="30px"
+                                                data-src="/data/team/photo/sumeet_malik.jpg">
+                                        </div>
+                                        <div class="col l8 s8 m8 no-margin no-padding">
+                                            <p class=" bold no-margin teacher-name">Sumeet Malik</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="col l9 s12 m12 right-section">
+                                <div class="row">
+                                    <a href="/resources/data-structures-and-algorithms-in-java-levelup">
+                                        <h2 class="col l10 s12 m12 batch-name bolder no-margin truncate free-resources-course-name"
+                                            title="Data Structures and Algorithms in Java [Level 2 - LevelUp]">Data Structures and Algorithms in Java <div class="row  center " style="font-weight: 400;padding-top: 2px;    font-size: .9rem;">[Level 2 - LevelUp]</div></h2>
+                                    </a>
+                
+                                    <div class="col l2 s2 m2">
+                                        <div class="follow">
+                                            <img class="course-icon-svg" height="30" width="30" alt="Data Structures and Algorithms in Java &lt;div class&#x3D;&quot;row  center &quot; style&#x3D;&quot;font-weight: 400;padding-top: 2px;    font-size: .9rem;&quot;&gt;[Level 2 - LevelUp]&lt;/div&gt;" src="/images/share.svg">
+                                            <span class="social-icons-on-hover ">
+                                                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <path
+                                                            d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-6.932 0-5.046 7.85-5.322 9h-3.487v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877c.188-2.824-.761-5.016 2.051-5.016z"
+                                                            fill="#3b5999" /></svg>
+                                                </a>
+                                                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <g fill="#0077b5">
+                                                            <path
+                                                                d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" />
+                                                            <path d="m.396 7.977h4.976v16.023h-4.976z" />
+                                                            <path
+                                                                d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" />
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                
+                                    <a href="/resources/data-structures-and-algorithms-in-java-levelup">
+                                        <div class="col l12 s12 m12 row no-padding">
+                                            <span class="col l4 s6 m6">
+                                                <img class="circle" height="25px" width="25px" src="/images/speed.svg">
+                                                &ensp; <span style="vertical-align: super;">200 Hours</span>
+                                            </span>
+                                            <span class="col l8 s6 m6">
+                                                <img class=" " height="25px" width="25px" src="/images/level.svg">
+                                                &ensp; <span style="vertical-align: super;">Level 2 [Intermediate]</span>
+                                            </span>
+                                        </div>
+                                        <div class="col l12 s12 m12">
+                                            <h4 class="free-resouces-course-desc no-margin" style="line-height:1.4rem;">
+                                                This is for anybody who has coded more than 200 hours of data structures and algorithms. It requires you to have a strong foundation on all coding concepts including graphs, recursion, dynamic programming and backtracking. This course will prepare you for the online rounds of all big-wigs like Microsoft, Amazon, Adobe, Flipkart etc. Though the discussions are in Java, but the compiler supports other languages as well. You can watch the discussion in Java and submit in language of your choice.
+                                            </h4>
+                                        </div>
+                                    </a>
+                
+                                    <div class="col l6 s6 m4 offset-l5 offset-s5 offset-m8">
+                                        <br>
+                                        <a class="start-button  text-darken-1 bolder view-more" href="/resources/data-structures-and-algorithms-in-java-levelup">
+                                            Start
+                                            <span class="view-more-arrow"> ⟶</span>
+                                        </a>
+                                    </div>
+                                </div>
+                
+                                <div class="row hide   ">
+                                    <div class="col l12 right  ">
+                                        <a class=" btn btn-small  right" href="">Start</a></div>
+                                </div>
+                                <input type="hidden" id="courseCode67" value="data-structures-and-algorithms-in-java-levelup">
+                                <input type="hidden" id="courseMaster67" class="courseMasters" value="data-structures-and-algorithms-levelup">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card free-resource-card show-on-hover border-radius" id="68">
+                
+                    <div class="card-content no-padding">
+                        <div class="row  no-margin border-radius"> 
+                            <a href="/resources/data-structures-and-algorithms-in-java-interview-prep">
+                                <div class="col l3 s12 m12 left-section   " >
+                                    <img class="row center course-icon-svg" height="62" width="62" alt="Data Structures and Algorithms in Java &lt;div class&#x3D;&quot;row  center &quot; style&#x3D;&quot;font-weight: 400;padding-top: 2px;    font-size: .9rem;&quot;&gt;[Level 3 - Interview Prep]&lt;/div&gt;"
+                                        src="/data/courses/photo/interview_preparation.svg">
+                                    <div class="row no-margin no-padding icon  ">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="fa fa-code   "> </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 305 Questions 
+                                        </span>
+                                    </div>
+                
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-video">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m12 no-padding bold"> 10 Topic Video's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-topic"></i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 29 Article's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-mcq">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 MCQ's
+                                        </span>
+                                    </div>
+                
+                                    <div class=" row user-info no-margin teacher-img">
+                                        <div class="col l4 s4 m4 no-margin no-padding">
+                                            <img class="circle" height="30px" width="30px"
+                                                data-src="/data/team/photo/sumeet_malik.jpg">
+                                        </div>
+                                        <div class="col l8 s8 m8 no-margin no-padding">
+                                            <p class=" bold no-margin teacher-name">Sumeet Malik</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="col l9 s12 m12 right-section">
+                                <div class="row">
+                                    <a href="/resources/data-structures-and-algorithms-in-java-interview-prep">
+                                        <h2 class="col l10 s12 m12 batch-name bolder no-margin truncate free-resources-course-name"
+                                            title="Data Structures and Algorithms in Java [Level 3 - Interview Prep]">Data Structures and Algorithms in Java <div class="row  center " style="font-weight: 400;padding-top: 2px;    font-size: .9rem;">[Level 3 - Interview Prep]</div></h2>
+                                    </a>
+                
+                                    <div class="col l2 s2 m2">
+                                        <div class="follow">
+                                            <img class="course-icon-svg" height="30" width="30" alt="Data Structures and Algorithms in Java &lt;div class&#x3D;&quot;row  center &quot; style&#x3D;&quot;font-weight: 400;padding-top: 2px;    font-size: .9rem;&quot;&gt;[Level 3 - Interview Prep]&lt;/div&gt;" src="/images/share.svg">
+                                            <span class="social-icons-on-hover ">
+                                                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <path
+                                                            d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-6.932 0-5.046 7.85-5.322 9h-3.487v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877c.188-2.824-.761-5.016 2.051-5.016z"
+                                                            fill="#3b5999" /></svg>
+                                                </a>
+                                                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <g fill="#0077b5">
+                                                            <path
+                                                                d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" />
+                                                            <path d="m.396 7.977h4.976v16.023h-4.976z" />
+                                                            <path
+                                                                d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" />
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                
+                                    <a href="/resources/data-structures-and-algorithms-in-java-interview-prep">
+                                        <div class="col l12 s12 m12 row no-padding">
+                                            <span class="col l4 s6 m6">
+                                                <img class="circle" height="25px" width="25px" src="/images/speed.svg">
+                                                &ensp; <span style="vertical-align: super;">200 Hours</span>
+                                            </span>
+                                            <span class="col l8 s6 m6">
+                                                <img class=" " height="25px" width="25px" src="/images/level.svg">
+                                                &ensp; <span style="vertical-align: super;">Level 3 [Advanced]</span>
+                                            </span>
+                                        </div>
+                                        <div class="col l12 s12 m12">
+                                            <h4 class="free-resouces-course-desc no-margin" style="line-height:1.4rem;">
+                                                This is for anybody who has coded more than 200 hours of data structures and algorithms. It requires you to have a strong foundation on all coding concepts including graphs, recursion, dynamic programming and backtracking. This course will focus on competitive programming and prepare you for coding contests on CodeChef and CodeForces. Though the discussions are in Java, but the compiler supports other languages as well. You can watch the discussion in Java and submit in language of your choice.
+                                            </h4>
+                                        </div>
+                                    </a>
+                
+                                    <div class="col l6 s6 m4 offset-l5 offset-s5 offset-m8">
+                                        <br>
+                                        <a class="start-button  text-darken-1 bolder view-more" href="/resources/data-structures-and-algorithms-in-java-interview-prep">
+                                            Start
+                                            <span class="view-more-arrow"> ⟶</span>
+                                        </a>
+                                    </div>
+                                </div>
+                
+                                <div class="row hide   ">
+                                    <div class="col l12 right  ">
+                                        <a class=" btn btn-small  right" href="">Start</a></div>
+                                </div>
+                                <input type="hidden" id="courseCode68" value="data-structures-and-algorithms-in-java-interview-prep">
+                                <input type="hidden" id="courseMaster68" class="courseMasters" value="interview-preparation">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card free-resource-card show-on-hover border-radius" id="84">
+                
+                    <div class="card-content no-padding">
+                        <div class="row  no-margin border-radius"> 
+                            <a href="/resources/web-development-using-reactJS-and-nodeJS">
+                                <div class="col l3 s12 m12 left-section   " >
+                                    <img class="row center course-icon-svg" height="62" width="62" alt="Web Dev using ReactJS and NodeJS"
+                                        src="/data/courses/photo/web_development.svg">
+                                    <div class="row no-margin no-padding icon  ">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="fa fa-code   "> </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 Questions 
+                                        </span>
+                                    </div>
+                
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-video">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m12 no-padding bold"> 3 Topic Video's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-topic"></i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 Article's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-mcq">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 MCQ's
+                                        </span>
+                                    </div>
+                
+                                    <div class=" row user-info no-margin teacher-img">
+                                        <div class="col l4 s4 m4 no-margin no-padding">
+                                            <img class="circle" height="30px" width="30px"
+                                                data-src="/data/team/photo/sumeet_malik.jpg">
+                                        </div>
+                                        <div class="col l8 s8 m8 no-margin no-padding">
+                                            <p class=" bold no-margin teacher-name">Sumeet Malik</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="col l9 s12 m12 right-section">
+                                <div class="row">
+                                    <a href="/resources/web-development-using-reactJS-and-nodeJS">
+                                        <h2 class="col l10 s12 m12 batch-name bolder no-margin truncate free-resources-course-name"
+                                            title="Web Dev using ReactJS and NodeJS">Web Dev using ReactJS and NodeJS</h2>
+                                    </a>
+                
+                                    <div class="col l2 s2 m2">
+                                        <div class="follow">
+                                            <img class="course-icon-svg" height="30" width="30" alt="Web Dev using ReactJS and NodeJS" src="/images/share.svg">
+                                            <span class="social-icons-on-hover ">
+                                                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <path
+                                                            d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-6.932 0-5.046 7.85-5.322 9h-3.487v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877c.188-2.824-.761-5.016 2.051-5.016z"
+                                                            fill="#3b5999" /></svg>
+                                                </a>
+                                                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <g fill="#0077b5">
+                                                            <path
+                                                                d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" />
+                                                            <path d="m.396 7.977h4.976v16.023h-4.976z" />
+                                                            <path
+                                                                d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" />
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                
+                                    <a href="/resources/web-development-using-reactJS-and-nodeJS">
+                                        <div class="col l12 s12 m12 row no-padding">
+                                            <span class="col l4 s6 m6">
+                                                <img class="circle" height="25px" width="25px" src="/images/speed.svg">
+                                                &ensp; <span style="vertical-align: super;">200 Hours</span>
+                                            </span>
+                                        </div>
+                                        <div class="col l12 s12 m12">
+                                            <h4 class="free-resouces-course-desc no-margin" style="line-height:1.4rem;">
+                                                This course focusses on web app development using Javascript, ReactJS and NodeJS. We start with teaching the concepts of Javascript by first performing activities and then learning about theoretical topics. This course is for absolute beginners and does not have any prerequisite
+                                            </h4>
+                                        </div>
+                                    </a>
+                
+                                    <div class="col l6 s6 m4 offset-l5 offset-s5 offset-m8">
+                                        <br>
+                                        <a class="start-button  text-darken-1 bolder view-more" href="/resources/web-development-using-reactJS-and-nodeJS">
+                                            Start
+                                            <span class="view-more-arrow"> ⟶</span>
+                                        </a>
+                                    </div>
+                                </div>
+                
+                                <div class="row hide   ">
+                                    <div class="col l12 right  ">
+                                        <a class=" btn btn-small  right" href="">Start</a></div>
+                                </div>
+                                <input type="hidden" id="courseCode84" value="web-development-using-reactJS-and-nodeJS">
+                                <input type="hidden" id="courseMaster84" class="courseMasters" value="web-dev">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card free-resource-card show-on-hover border-radius" id="82">
+                
+                    <div class="card-content no-padding">
+                        <div class="row  no-margin border-radius"> 
+                            <a href="/resources/python-and-machine-learning">
+                                <div class="col l3 s12 m12 left-section   " >
+                                    <img class="row center course-icon-svg" height="62" width="62" alt="Python And Machine Learning"
+                                        src="/data/courses/photo/machine_learning.svg">
+                                    <div class="row no-margin no-padding icon  ">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="fa fa-code   "> </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 Questions 
+                                        </span>
+                                    </div>
+                
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-video">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m12 no-padding bold"> 0 Topic Video's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-topic"></i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 Article's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-mcq">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 MCQ's
+                                        </span>
+                                    </div>
+                
+                                    <div class=" row user-info no-margin teacher-img">
+                                        <div class="col l4 s4 m4 no-margin no-padding">
+                                            <img class="circle" height="30px" width="30px"
+                                                data-src="/data/team/photo/rajneesh_kumar.jpg">
+                                        </div>
+                                        <div class="col l8 s8 m8 no-margin no-padding">
+                                            <p class=" bold no-margin teacher-name">Rajneesh Kumar</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="col l9 s12 m12 right-section">
+                                <div class="row">
+                                    <a href="/resources/python-and-machine-learning">
+                                        <h2 class="col l10 s12 m12 batch-name bolder no-margin truncate free-resources-course-name"
+                                            title="Python And Machine Learning">Python And Machine Learning</h2>
+                                    </a>
+                
+                                    <div class="col l2 s2 m2">
+                                        <div class="follow">
+                                            <img class="course-icon-svg" height="30" width="30" alt="Python And Machine Learning" src="/images/share.svg">
+                                            <span class="social-icons-on-hover ">
+                                                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <path
+                                                            d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-6.932 0-5.046 7.85-5.322 9h-3.487v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877c.188-2.824-.761-5.016 2.051-5.016z"
+                                                            fill="#3b5999" /></svg>
+                                                </a>
+                                                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <g fill="#0077b5">
+                                                            <path
+                                                                d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" />
+                                                            <path d="m.396 7.977h4.976v16.023h-4.976z" />
+                                                            <path
+                                                                d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" />
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                
+                                    <a href="/resources/python-and-machine-learning">
+                                        <div class="col l12 s12 m12 row no-padding">
+                                            <span class="col l4 s6 m6">
+                                                <img class="circle" height="25px" width="25px" src="/images/speed.svg">
+                                                &ensp; <span style="vertical-align: super;">200 Hours</span>
+                                            </span>
+                                        </div>
+                                        <div class="col l12 s12 m12">
+                                            <h4 class="free-resouces-course-desc no-margin" style="line-height:1.4rem;">
+                                                This course is designed for students aiming to start with Python and learn the depth of Machine Learning and Deep Learning, In this course, we start with the basics of Python programming, OOP&#x27;s in Python and various libraries used for different functionalities. With this knowledge of Python, we move forward to Machine Learning/Artificial Intelligence, theory and the algorithms of Machine Learning and Deep Learning followed by projects on these functionalities.
+                                            </h4>
+                                        </div>
+                                    </a>
+                
+                                    <div class="col l6 s6 m4 offset-l5 offset-s5 offset-m8">
+                                        <br>
+                                        <a class="start-button  text-darken-1 bolder view-more" href="/resources/python-and-machine-learning">
+                                            Start
+                                            <span class="view-more-arrow"> ⟶</span>
+                                        </a>
+                                    </div>
+                                </div>
+                
+                                <div class="row hide   ">
+                                    <div class="col l12 right  ">
+                                        <a class=" btn btn-small  right" href="">Start</a></div>
+                                </div>
+                                <input type="hidden" id="courseCode82" value="python-and-machine-learning">
+                                <input type="hidden" id="courseMaster82" class="courseMasters" value="machine-learning">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card free-resource-card show-on-hover border-radius" id="83">
+                
+                    <div class="card-content no-padding">
+                        <div class="row  no-margin border-radius"> 
+                            <a href="/resources/gaming-and-augmented-reality">
+                                <div class="col l3 s12 m12 left-section   " >
+                                    <img class="row center course-icon-svg" height="62" width="62" alt="Gaming and Augmented Reality"
+                                        src="/data/courses/photo/mobile.svg">
+                                    <div class="row no-margin no-padding icon  ">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="fa fa-code   "> </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 Questions 
+                                        </span>
+                                    </div>
+                
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-video">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m12 no-padding bold"> 0 Topic Video's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-topic"></i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 Article's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-mcq">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 MCQ's
+                                        </span>
+                                    </div>
+                
+                                    <div class=" row user-info no-margin teacher-img">
+                                        <div class="col l4 s4 m4 no-margin no-padding">
+                                            <img class="circle" height="30px" width="30px"
+                                                data-src="/data/team/photo/jasbir_singh.jpg">
+                                        </div>
+                                        <div class="col l8 s8 m8 no-margin no-padding">
+                                            <p class=" bold no-margin teacher-name">Jasbir Singh</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="col l9 s12 m12 right-section">
+                                <div class="row">
+                                    <a href="/resources/gaming-and-augmented-reality">
+                                        <h2 class="col l10 s12 m12 batch-name bolder no-margin truncate free-resources-course-name"
+                                            title="Gaming and Augmented Reality">Gaming and Augmented Reality</h2>
+                                    </a>
+                
+                                    <div class="col l2 s2 m2">
+                                        <div class="follow">
+                                            <img class="course-icon-svg" height="30" width="30" alt="Gaming and Augmented Reality" src="/images/share.svg">
+                                            <span class="social-icons-on-hover ">
+                                                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <path
+                                                            d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-6.932 0-5.046 7.85-5.322 9h-3.487v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877c.188-2.824-.761-5.016 2.051-5.016z"
+                                                            fill="#3b5999" /></svg>
+                                                </a>
+                                                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <g fill="#0077b5">
+                                                            <path
+                                                                d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" />
+                                                            <path d="m.396 7.977h4.976v16.023h-4.976z" />
+                                                            <path
+                                                                d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" />
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                
+                                    <a href="/resources/gaming-and-augmented-reality">
+                                        <div class="col l12 s12 m12 row no-padding">
+                                            <span class="col l4 s6 m6">
+                                                <img class="circle" height="25px" width="25px" src="/images/speed.svg">
+                                                &ensp; <span style="vertical-align: super;">200 Hours</span>
+                                            </span>
+                                        </div>
+                                        <div class="col l12 s12 m12">
+                                            <h4 class="free-resouces-course-desc no-margin" style="line-height:1.4rem;">
+                                                This course introduces students to game development - both using JavaScript and gaming engines such as Unity, Flash Player and others. As the course progresses, we move ahead towards the hottest trend in technology right now, Augmented Reality and Virtual Reality. This course is taught from scratch and is perfect for beginners looking to build their careers in Game Development. 
+                                            </h4>
+                                        </div>
+                                    </a>
+                
+                                    <div class="col l6 s6 m4 offset-l5 offset-s5 offset-m8">
+                                        <br>
+                                        <a class="start-button  text-darken-1 bolder view-more" href="/resources/gaming-and-augmented-reality">
+                                            Start
+                                            <span class="view-more-arrow"> ⟶</span>
+                                        </a>
+                                    </div>
+                                </div>
+                
+                                <div class="row hide   ">
+                                    <div class="col l12 right  ">
+                                        <a class=" btn btn-small  right" href="">Start</a></div>
+                                </div>
+                                <input type="hidden" id="courseCode83" value="gaming-and-augmented-reality">
+                                <input type="hidden" id="courseMaster83" class="courseMasters" value="mobile-(native-react-and-flutter)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="card free-resource-card show-on-hover border-radius" id="85">
+                
+                    <div class="card-content no-padding">
+                        <div class="row  no-margin border-radius"> 
+                            <a href="/resources/mobile-app-development">
+                                <div class="col l3 s12 m12 left-section   " >
+                                    <img class="row center course-icon-svg" height="62" width="62" alt="Mobile App Development"
+                                        src="/data/courses/photo/mobile.svg">
+                                    <div class="row no-margin no-padding icon  ">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="fa fa-code   "> </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 Questions 
+                                        </span>
+                                    </div>
+                
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-video">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m12 no-padding bold"> 0 Topic Video's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-topic"></i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 Article's
+                                        </span>
+                                    </div>
+                                    <div class="row no-margin no-padding icon">
+                                        <span class="col l2 s2 m2 offset-s1 no-padding">
+                                            <i class="svg-resources svg-mcq">
+                                            </i>
+                                        </span>
+                                        <span class="col l10 s11 m10 no-padding bold"> 0 MCQ's
+                                        </span>
+                                    </div>
+                
+                                    <div class=" row user-info no-margin teacher-img">
+                                        <div class="col l4 s4 m4 no-margin no-padding">
+                                            <img class="circle" height="30px" width="30px"
+                                                data-src="/data/team/photo/mohit_behl.jpg">
+                                        </div>
+                                        <div class="col l8 s8 m8 no-margin no-padding">
+                                            <p class=" bold no-margin teacher-name">Mohit behl</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="col l9 s12 m12 right-section">
+                                <div class="row">
+                                    <a href="/resources/mobile-app-development">
+                                        <h2 class="col l10 s12 m12 batch-name bolder no-margin truncate free-resources-course-name"
+                                            title="Mobile App Development">Mobile App Development</h2>
+                                    </a>
+                
+                                    <div class="col l2 s2 m2">
+                                        <div class="follow">
+                                            <img class="course-icon-svg" height="30" width="30" alt="Mobile App Development" src="/images/share.svg">
+                                            <span class="social-icons-on-hover ">
+                                                <a href="https://www.facebook.com/sharer/sharer.php?u=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <path
+                                                            d="m15.997 3.985h2.191v-3.816c-.378-.052-1.678-.169-3.192-.169-6.932 0-5.046 7.85-5.322 9h-3.487v4.266h3.486v10.734h4.274v-10.733h3.345l.531-4.266h-3.877c.188-2.824-.761-5.016 2.051-5.016z"
+                                                            fill="#3b5999" /></svg>
+                                                </a>
+                                                <a href="https://www.linkedin.com/sharing/share-offsite/?url=https://www.pepcoding.com/resources"
+                                                    class="" target="_blank">
+                                                    <svg height="15" viewBox="0 0 24 24" width="15">
+                                                        <g fill="#0077b5">
+                                                            <path
+                                                                d="m23.994 24v-.001h.006v-8.802c0-4.306-.927-7.623-5.961-7.623-2.42 0-4.044 1.328-4.707 2.587h-.07v-2.185h-4.773v16.023h4.97v-7.934c0-2.089.396-4.109 2.983-4.109 2.549 0 2.587 2.384 2.587 4.243v7.801z" />
+                                                            <path d="m.396 7.977h4.976v16.023h-4.976z" />
+                                                            <path
+                                                                d="m2.882 0c-1.591 0-2.882 1.291-2.882 2.882s1.291 2.909 2.882 2.909 2.882-1.318 2.882-2.909c-.001-1.591-1.292-2.882-2.882-2.882z" />
+                                                        </g>
+                                                    </svg>
+                                                </a>
+                                            </span>
+                                        </div>
+                                    </div>
+                
+                                    <a href="/resources/mobile-app-development">
+                                        <div class="col l12 s12 m12 row no-padding">
+                                            <span class="col l4 s6 m6">
+                                                <img class="circle" height="25px" width="25px" src="/images/speed.svg">
+                                                &ensp; <span style="vertical-align: super;">200 Hours</span>
+                                            </span>
+                                        </div>
+                                        <div class="col l12 s12 m12">
+                                            <h4 class="free-resouces-course-desc no-margin" style="line-height:1.4rem;">
+                                                This course for beginners focusses on Mobile App Development using Android, Flutter and React Native. We start with Android Development using JAVA and move towards cross platform app development with Flutter and React Native. This course id taught from the scratch and requires minimum coding knowledge to start with.
+                                            </h4>
+                                        </div>
+                                    </a>
+                
+                                    <div class="col l6 s6 m4 offset-l5 offset-s5 offset-m8">
+                                        <br>
+                                        <a class="start-button  text-darken-1 bolder view-more" href="/resources/mobile-app-development">
+                                            Start
+                                            <span class="view-more-arrow"> ⟶</span>
+                                        </a>
+                                    </div>
+                                </div>
+                
+                                <div class="row hide   ">
+                                    <div class="col l12 right  ">
+                                        <a class=" btn btn-small  right" href="">Start</a></div>
+                                </div>
+                                <input type="hidden" id="courseCode85" value="mobile-app-development">
+                                <input type="hidden" id="courseMaster85" class="courseMasters" value="mobile-(native-react-and-flutter)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col l4 m12 s12">
+                <a href="/contests" target="_blank" class="bold   center text-underline hide">
+                    <h3>Live Contests</h3>
+                </a>
+                <div class="userReviews hide">
+                </div>
+                <div class=" card iframe-container rounded-border">
+                    <iframe src="https://www.youtube.com/embed/videoseries?list=PL-Jc9J83PIiGYONahIdkLxVFRZCxEv2fr"
+                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                </div>
+
+                <div class="col l11 s12 m12    reviewSection no-padding hide-on-small-only">
+                    <div class="review-card1 card" data-index="1">
+                        <a href="/reviews">
+                            <div class="row">
+                                <i class="fa fa-quote-left  center review-quote" aria-hidden="true">
+                                </i>
+                                <img class="image circle center " height="120px" width="120px"
+                                    src="/data/placements/photo/archit_aggarwal.jpg">
+                            </div>
+                            <div class="review-text">
+                                <p class="  text-ellipses no-margin no-padding">
+                                    Notes for topics like Operating Systems, DBMS and System Design. Special Development Classes which are aimed at Development of Projects. I joined PepCoding in the June-July 2019 Batch and after dedicated efforts of the team, I was able to grab a Day 0 Internship Offer from Tower Research Capital.
+                                </p>
+                            </div>
+                            <br>
+                            <div class="divider review-divider"></div>
+                            <br>
+                        </a>
+                        <div class="center no-margin">
+                            <div class=" social-links">
+                                <a target="_blank" href="https://www.quora.com/Which-institute-should-I-join-considering-my-placement-internship-season-is-near-Coding-Blocks-Coding-Ninjas-or-Pepcoding/answer/Archit-Aggarwal-57?ch&#x3D;10&amp;share&#x3D;0cb602d4&amp;srid&#x3D;0uUMy">
+                                    <i class="fa fa-quora " aria-hidden="true"></i></a>&nbsp;
+
+                                <a target="_blank" href="https://www.facebook.com/plugins/post.php?href&#x3D;https%3A%2F%2Fwww.facebook.com%2Farchit.aggarwal.73%2Fposts%2F2392544430798920&amp;width&#x3D;500">
+                                    <i class="fa fa-facebook " aria-hidden="true"></i></a>&nbsp;
+                                <a target="_blank" href="https://www.google.com/maps/contrib/104846470828444078192/place/ChIJF-fTVNADDTkRr_8nP_z90E8/@28.6993666,77.1382814,17z/data&#x3D;!4m6!1m5!8m4!1e1!2s104846470828444078192!3m1!1e1?hl&#x3D;en-IN">
+                                    <i class="fa fa-google " aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <a href="/reviews">
+                            <div class="center no-margin">
+                                <p class="  bolder font-medium">Archit Aggarwal</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="review-card1 card" data-index="2">
+                        <a href="/reviews">
+                            <div class="row">
+                                <i class="fa fa-quote-left  center review-quote" aria-hidden="true">
+                                </i>
+                                <img class="image circle center " height="120px" width="120px"
+                                    src="/data/placements/photo/priyansh_verma.jpg">
+                            </div>
+                            <div class="review-text">
+                                <p class="  text-ellipses no-margin no-padding">
+                                    The foundation batch has ~50 lectures, covering the very basics and also solidly consolidating topics like DP, Graphs, etc., which are feared by students - beginners and seniors alike.The interview prep batch also has nearly the same number of lectures and is extremely helpful for cracking interviews of tech giants like Google, Uber, Microsoft, Amazon, etc. The course content is highly structured and is delivered with utmost efficiency.
+                                </p>
+                            </div>
+                            <br>
+                            <div class="divider review-divider"></div>
+                            <br>
+                        </a>
+                        <div class="center no-margin">
+                            <div class=" social-links">
+                                <a target="_blank" href="https://www.quora.com/Which-is-the-best-institute-for-coding-in-Delhi/answer/Priyansh-Verma-16?ch&#x3D;10&amp;share&#x3D;75deb7a4&amp;srid&#x3D;c0oi">
+                                    <i class="fa fa-quora " aria-hidden="true"></i></a>&nbsp;
+
+                                <a target="_blank" href="https://www.facebook.com/plugins/post.php?href&#x3D;https%3A%2F%2Fwww.facebook.com%2FPriyansh31Verma%2Fposts%2F2742399082439185&amp;width&#x3D;500">
+                                    <i class="fa fa-facebook " aria-hidden="true"></i></a>&nbsp;
+                                <a target="_blank" href="https://www.google.com/maps/contrib/115815917097659860170/place/ChIJF-fTVNADDTkRr_8nP_z90E8/@28.6993666,77.1382814,17z/data&#x3D;!4m6!1m5!8m4!1e1!2s115815917097659860170!3m1!1e1?hl&#x3D;en-IN">
+                                    <i class="fa fa-google " aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <a href="/reviews">
+                            <div class="center no-margin">
+                                <p class="  bolder font-medium">Priyansh Verma</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="review-card1 card" data-index="3">
+                        <a href="/reviews">
+                            <div class="row">
+                                <i class="fa fa-quote-left  center review-quote" aria-hidden="true">
+                                </i>
+                                <img class="image circle center " height="120px" width="120px"
+                                    src="/data/placements/photo/sanya_sareen.jpg">
+                            </div>
+                            <div class="review-text">
+                                <p class="  text-ellipses no-margin no-padding">
+                                    I remember so many days when Sumeet sir couldn’t even complete 2 questions in a 4 hour class because he was discussing every student’s approach for the first question itself. OMG SERIOUSLY? ANY TEACHER COULD DO THAT? I CAN’T BELIEVE BECAUSE I HAVEN’T MET SUCH A HARDOWRKING, DEDICATED, BRILLIANT TEACHER EVER!
+                                </p>
+                            </div>
+                            <br>
+                            <div class="divider review-divider"></div>
+                            <br>
+                        </a>
+                        <div class="center no-margin">
+                            <div class=" social-links">
+                                <a target="_blank" href="">
+                                    <i class="fa fa-quora " aria-hidden="true"></i></a>&nbsp;
+
+                                <a target="_blank" href="">
+                                    <i class="fa fa-facebook " aria-hidden="true"></i></a>&nbsp;
+                                <a target="_blank" href="https://www.google.com/maps/contrib/114234419814791605206/place/ChIJF-fTVNADDTkRr_8nP_z90E8/@28.6482521,77.0891704,13z/data&#x3D;!4m6!1m5!8m4!1e1!2s114234419814791605206!3m1!1e1?hl&#x3D;en-IN">
+                                    <i class="fa fa-google " aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <a href="/reviews">
+                            <div class="center no-margin">
+                                <p class="  bolder font-medium">Sanya Sareen</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="review-card1 card" data-index="4">
+                        <a href="/reviews">
+                            <div class="row">
+                                <i class="fa fa-quote-left  center review-quote" aria-hidden="true">
+                                </i>
+                                <img class="image circle center " height="120px" width="120px"
+                                    src="/data/placements/photo/himanshu_tiwari.jpg">
+                            </div>
+                            <div class="review-text">
+                                <p class="  text-ellipses no-margin no-padding">
+                                    I join Pepcoding foundation batch on July 18 , before going to Pepcoding I only know about for-loop and if-else. Pepcoding helped me a lot to crack Amazon interview with greater ease.I attended all batches of Pepcoding:-1. Foundation – It consists of 50 classes which consists of basic questions from all topics(star printing to range-query) .50 classes breakdown as:
+                                </p>
+                            </div>
+                            <br>
+                            <div class="divider review-divider"></div>
+                            <br>
+                        </a>
+                        <div class="center no-margin">
+                            <div class=" social-links">
+                                <a target="_blank" href="https://qr.ae/TWPSnV">
+                                    <i class="fa fa-quora " aria-hidden="true"></i></a>&nbsp;
+
+                                <a target="_blank" href="">
+                                    <i class="fa fa-facebook " aria-hidden="true"></i></a>&nbsp;
+                                <a target="_blank" href="https://www.google.com/maps/contrib/114793068334841657463/place/ChIJF-fTVNADDTkRr_8nP_z90E8/@28.6648861,77.1093711,13z/data&#x3D;!4m6!1m5!8m4!1e1!2s114793068334841657463!3m1!1e1?hl&#x3D;en-IN">
+                                    <i class="fa fa-google " aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <a href="/reviews">
+                            <div class="center no-margin">
+                                <p class="  bolder font-medium">Himanshu Tiwari</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="review-card1 card" data-index="5">
+                        <a href="/reviews">
+                            <div class="row">
+                                <i class="fa fa-quote-left  center review-quote" aria-hidden="true">
+                                </i>
+                                <img class="image circle center " height="120px" width="120px"
+                                    src="/data/placements/photo/shally_kumar.jpg">
+                            </div>
+                            <div class="review-text">
+                                <p class="  text-ellipses no-margin no-padding">
+                                    About a year ago, i used to be so stressed because i was in my sixth semester and placements starts from the begining of seventh semester. I had zero confidence on data structures and competitive coding. Bagging offers from tech giants like Oracle or Adobe was only dream back then. But my one decision of joining Pepcoding changed the game. I have done three courses from Pepcoding- Foundation, Level Up and Interview Prep, all three were taught by Sumeet Sir.
+                                </p>
+                            </div>
+                            <br>
+                            <div class="divider review-divider"></div>
+                            <br>
+                        </a>
+                        <div class="center no-margin">
+                            <div class=" social-links">
+                                <a target="_blank" href="">
+                                    <i class="fa fa-quora " aria-hidden="true"></i></a>&nbsp;
+
+                                <a target="_blank" href="">
+                                    <i class="fa fa-facebook " aria-hidden="true"></i></a>&nbsp;
+                                <a target="_blank" href="https://www.google.com/maps/contrib/105577809084921784260/place/ChIJF-fTVNADDTkRr_8nP_z90E8/@28.6993666,77.1032625,13z/data&#x3D;!4m6!1m5!8m4!1e1!2s105577809084921784260!3m1!1e1?hl&#x3D;en-IN">
+                                    <i class="fa fa-google " aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <a href="/reviews">
+                            <div class="center no-margin">
+                                <p class="  bolder font-medium">Shally Kumar</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="review-card1 card" data-index="6">
+                        <a href="/reviews">
+                            <div class="row">
+                                <i class="fa fa-quote-left  center review-quote" aria-hidden="true">
+                                </i>
+                                <img class="image circle center " height="120px" width="120px"
+                                    src="/data/placements/photo/ishika_saini.jpg">
+                            </div>
+                            <div class="review-text">
+                                <p class="  text-ellipses no-margin no-padding">
+                                    I took the Foundation course in February 2019 and then Interview Preparation in June 2019.The foundation course focuses on building logic and fundamentals of programming. It covers all the important topics of Data Structures and Algorithms that are essential for the interview point of view. These include arrays, strings, linked list, tree, graph, DP, range queries, OOPs, OS, DBMS, etc.
+                                </p>
+                            </div>
+                            <br>
+                            <div class="divider review-divider"></div>
+                            <br>
+                        </a>
+                        <div class="center no-margin">
+                            <div class=" social-links">
+                                <a target="_blank" href="https://qr.ae/TSdx42">
+                                    <i class="fa fa-quora " aria-hidden="true"></i></a>&nbsp;
+
+                                <a target="_blank" href="">
+                                    <i class="fa fa-facebook " aria-hidden="true"></i></a>&nbsp;
+                                <a target="_blank" href="https://www.google.com/maps/contrib/117974610196174666946/place/ChIJF-fTVNADDTkRr_8nP_z90E8/@28.6993713,77.1360927,16z/data&#x3D;!4m6!1m5!8m4!1e1!2s117974610196174666946!3m1!1e1?hl&#x3D;en-IN">
+                                    <i class="fa fa-google " aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <a href="/reviews">
+                            <div class="center no-margin">
+                                <p class="  bolder font-medium">Ishika Saini</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col l11 s12 m12 card reviewSection  hide">
+                    <div class="review-card">
+                        <div class="review-content" data-index="1">
+                            <a href="/reviews">
+                                <div class="row">
+                                    <img class="image circle" src="/data/placements/photo/archit_aggarwal.jpg">
+                                    <i class="fa fa-quote-left  review-quote" aria-hidden="true"> </i>
+                                </div>
+                                <div class="review-text">
+                                    <p class=" text-darken-1 text-ellipses no-margin no-padding">
+                                        Notes for topics like Operating Systems, DBMS and System Design. Special Development Classes which are aimed at Development of Projects. I joined PepCoding in the June-July 2019 Batch and after dedicated efforts of the team, I was able to grab a Day 0 Internship Offer from Tower Research Capital.
+                                    </p>
+                                </div>
+                                <br>
+                                <div class="divider review-divider"></div>
+                                <br>
+                            </a>
+                            <div class="center no-margin">
+                                <div class=" social-links">
+                                    <a target="_blank" href="https://www.quora.com/Which-institute-should-I-join-considering-my-placement-internship-season-is-near-Coding-Blocks-Coding-Ninjas-or-Pepcoding/answer/Archit-Aggarwal-57?ch&#x3D;10&amp;share&#x3D;0cb602d4&amp;srid&#x3D;0uUMy">
+                                        <i class="fa fa-quora " aria-hidden="true"></i></a>&nbsp;
+
+                                    <a target="_blank" href="https://www.facebook.com/plugins/post.php?href&#x3D;https%3A%2F%2Fwww.facebook.com%2Farchit.aggarwal.73%2Fposts%2F2392544430798920&amp;width&#x3D;500">
+                                        <i class="fa fa-facebook " aria-hidden="true"></i></a>&nbsp;
+                                    <a target="_blank" href="https://www.google.com/maps/contrib/104846470828444078192/place/ChIJF-fTVNADDTkRr_8nP_z90E8/@28.6993666,77.1382814,17z/data&#x3D;!4m6!1m5!8m4!1e1!2s104846470828444078192!3m1!1e1?hl&#x3D;en-IN">
+                                        <i class="fa fa-google " aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <a href="/reviews">
+                                <div class="center no-margin">
+                                    <p class="  bolder font-tiny">Archit Aggarwal</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="review-content" data-index="2">
+                            <a href="/reviews">
+                                <div class="row">
+                                    <img class="image circle" src="/data/placements/photo/priyansh_verma.jpg">
+                                    <i class="fa fa-quote-left  review-quote" aria-hidden="true"> </i>
+                                </div>
+                                <div class="review-text">
+                                    <p class=" text-darken-1 text-ellipses no-margin no-padding">
+                                        The foundation batch has ~50 lectures, covering the very basics and also solidly consolidating topics like DP, Graphs, etc., which are feared by students - beginners and seniors alike.The interview prep batch also has nearly the same number of lectures and is extremely helpful for cracking interviews of tech giants like Google, Uber, Microsoft, Amazon, etc. The course content is highly structured and is delivered with utmost efficiency.
+                                    </p>
+                                </div>
+                                <br>
+                                <div class="divider review-divider"></div>
+                                <br>
+                            </a>
+                            <div class="center no-margin">
+                                <div class=" social-links">
+                                    <a target="_blank" href="https://www.quora.com/Which-is-the-best-institute-for-coding-in-Delhi/answer/Priyansh-Verma-16?ch&#x3D;10&amp;share&#x3D;75deb7a4&amp;srid&#x3D;c0oi">
+                                        <i class="fa fa-quora " aria-hidden="true"></i></a>&nbsp;
+
+                                    <a target="_blank" href="https://www.facebook.com/plugins/post.php?href&#x3D;https%3A%2F%2Fwww.facebook.com%2FPriyansh31Verma%2Fposts%2F2742399082439185&amp;width&#x3D;500">
+                                        <i class="fa fa-facebook " aria-hidden="true"></i></a>&nbsp;
+                                    <a target="_blank" href="https://www.google.com/maps/contrib/115815917097659860170/place/ChIJF-fTVNADDTkRr_8nP_z90E8/@28.6993666,77.1382814,17z/data&#x3D;!4m6!1m5!8m4!1e1!2s115815917097659860170!3m1!1e1?hl&#x3D;en-IN">
+                                        <i class="fa fa-google " aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <a href="/reviews">
+                                <div class="center no-margin">
+                                    <p class="  bolder font-tiny">Priyansh Verma</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="review-content" data-index="3">
+                            <a href="/reviews">
+                                <div class="row">
+                                    <img class="image circle" src="/data/placements/photo/sanya_sareen.jpg">
+                                    <i class="fa fa-quote-left  review-quote" aria-hidden="true"> </i>
+                                </div>
+                                <div class="review-text">
+                                    <p class=" text-darken-1 text-ellipses no-margin no-padding">
+                                        I remember so many days when Sumeet sir couldn’t even complete 2 questions in a 4 hour class because he was discussing every student’s approach for the first question itself. OMG SERIOUSLY? ANY TEACHER COULD DO THAT? I CAN’T BELIEVE BECAUSE I HAVEN’T MET SUCH A HARDOWRKING, DEDICATED, BRILLIANT TEACHER EVER!
+                                    </p>
+                                </div>
+                                <br>
+                                <div class="divider review-divider"></div>
+                                <br>
+                            </a>
+                            <div class="center no-margin">
+                                <div class=" social-links">
+                                    <a target="_blank" href="">
+                                        <i class="fa fa-quora " aria-hidden="true"></i></a>&nbsp;
+
+                                    <a target="_blank" href="">
+                                        <i class="fa fa-facebook " aria-hidden="true"></i></a>&nbsp;
+                                    <a target="_blank" href="https://www.google.com/maps/contrib/114234419814791605206/place/ChIJF-fTVNADDTkRr_8nP_z90E8/@28.6482521,77.0891704,13z/data&#x3D;!4m6!1m5!8m4!1e1!2s114234419814791605206!3m1!1e1?hl&#x3D;en-IN">
+                                        <i class="fa fa-google " aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <a href="/reviews">
+                                <div class="center no-margin">
+                                    <p class="  bolder font-tiny">Sanya Sareen</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="review-content" data-index="4">
+                            <a href="/reviews">
+                                <div class="row">
+                                    <img class="image circle" src="/data/placements/photo/himanshu_tiwari.jpg">
+                                    <i class="fa fa-quote-left  review-quote" aria-hidden="true"> </i>
+                                </div>
+                                <div class="review-text">
+                                    <p class=" text-darken-1 text-ellipses no-margin no-padding">
+                                        I join Pepcoding foundation batch on July 18 , before going to Pepcoding I only know about for-loop and if-else. Pepcoding helped me a lot to crack Amazon interview with greater ease.I attended all batches of Pepcoding:-1. Foundation – It consists of 50 classes which consists of basic questions from all topics(star printing to range-query) .50 classes breakdown as:
+                                    </p>
+                                </div>
+                                <br>
+                                <div class="divider review-divider"></div>
+                                <br>
+                            </a>
+                            <div class="center no-margin">
+                                <div class=" social-links">
+                                    <a target="_blank" href="https://qr.ae/TWPSnV">
+                                        <i class="fa fa-quora " aria-hidden="true"></i></a>&nbsp;
+
+                                    <a target="_blank" href="">
+                                        <i class="fa fa-facebook " aria-hidden="true"></i></a>&nbsp;
+                                    <a target="_blank" href="https://www.google.com/maps/contrib/114793068334841657463/place/ChIJF-fTVNADDTkRr_8nP_z90E8/@28.6648861,77.1093711,13z/data&#x3D;!4m6!1m5!8m4!1e1!2s114793068334841657463!3m1!1e1?hl&#x3D;en-IN">
+                                        <i class="fa fa-google " aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <a href="/reviews">
+                                <div class="center no-margin">
+                                    <p class="  bolder font-tiny">Himanshu Tiwari</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="review-content" data-index="5">
+                            <a href="/reviews">
+                                <div class="row">
+                                    <img class="image circle" src="/data/placements/photo/shally_kumar.jpg">
+                                    <i class="fa fa-quote-left  review-quote" aria-hidden="true"> </i>
+                                </div>
+                                <div class="review-text">
+                                    <p class=" text-darken-1 text-ellipses no-margin no-padding">
+                                        About a year ago, i used to be so stressed because i was in my sixth semester and placements starts from the begining of seventh semester. I had zero confidence on data structures and competitive coding. Bagging offers from tech giants like Oracle or Adobe was only dream back then. But my one decision of joining Pepcoding changed the game. I have done three courses from Pepcoding- Foundation, Level Up and Interview Prep, all three were taught by Sumeet Sir.
+                                    </p>
+                                </div>
+                                <br>
+                                <div class="divider review-divider"></div>
+                                <br>
+                            </a>
+                            <div class="center no-margin">
+                                <div class=" social-links">
+                                    <a target="_blank" href="">
+                                        <i class="fa fa-quora " aria-hidden="true"></i></a>&nbsp;
+
+                                    <a target="_blank" href="">
+                                        <i class="fa fa-facebook " aria-hidden="true"></i></a>&nbsp;
+                                    <a target="_blank" href="https://www.google.com/maps/contrib/105577809084921784260/place/ChIJF-fTVNADDTkRr_8nP_z90E8/@28.6993666,77.1032625,13z/data&#x3D;!4m6!1m5!8m4!1e1!2s105577809084921784260!3m1!1e1?hl&#x3D;en-IN">
+                                        <i class="fa fa-google " aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <a href="/reviews">
+                                <div class="center no-margin">
+                                    <p class="  bolder font-tiny">Shally Kumar</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="review-content" data-index="6">
+                            <a href="/reviews">
+                                <div class="row">
+                                    <img class="image circle" src="/data/placements/photo/ishika_saini.jpg">
+                                    <i class="fa fa-quote-left  review-quote" aria-hidden="true"> </i>
+                                </div>
+                                <div class="review-text">
+                                    <p class=" text-darken-1 text-ellipses no-margin no-padding">
+                                        I took the Foundation course in February 2019 and then Interview Preparation in June 2019.The foundation course focuses on building logic and fundamentals of programming. It covers all the important topics of Data Structures and Algorithms that are essential for the interview point of view. These include arrays, strings, linked list, tree, graph, DP, range queries, OOPs, OS, DBMS, etc.
+                                    </p>
+                                </div>
+                                <br>
+                                <div class="divider review-divider"></div>
+                                <br>
+                            </a>
+                            <div class="center no-margin">
+                                <div class=" social-links">
+                                    <a target="_blank" href="https://qr.ae/TSdx42">
+                                        <i class="fa fa-quora " aria-hidden="true"></i></a>&nbsp;
+
+                                    <a target="_blank" href="">
+                                        <i class="fa fa-facebook " aria-hidden="true"></i></a>&nbsp;
+                                    <a target="_blank" href="https://www.google.com/maps/contrib/117974610196174666946/place/ChIJF-fTVNADDTkRr_8nP_z90E8/@28.6993713,77.1360927,16z/data&#x3D;!4m6!1m5!8m4!1e1!2s117974610196174666946!3m1!1e1?hl&#x3D;en-IN">
+                                        <i class="fa fa-google " aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                            <a href="/reviews">
+                                <div class="center no-margin">
+                                    <p class="  bolder font-tiny">Ishika Saini</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+ 
+
+
+
+<div class=" row center section">
+    <div class="col l12 s12 m12">
+
+         <h2 class="bold center section-heading-l">
+                    <span class="underline"> How It Works</span></h2>
+
+ 
+        <div class="col l5 offset-l1 s12 m4">
+            <div class="card  about-card-free-resources">
+                <div class="card-content center">
+                    <div class="row ">
+                        <img class=" col l12 s12 course-icon-svg" height="70" width="70"
+                            alt="Teacher Student Engagement" data-src="/images/teacher_student_engagement.svg">
+                    </div>
+                    <div class=" row no-padding no-margin">
+                        <h4 class="col l12 bold s12 no-padding no-margin"> Teacher Student Engagement</h4>
+                    </div>
+                    <div class=" row">
+                        <p class="col l12 s12"> The biggest advantage of the paid course is the interaction between the
+                            student and the instructor. The student gets a personalised experience where they can get
+                            their doubts solved during the class and get the code corrected at the same time. Students
+                            are also regularly guided and given advice on how to tackle and complete the course
+                            efficiently.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col l5 s12 m4">
+            <div class="card hoverable about-card-free-resources">
+                <div class="card-content">
+                    <div class="row ">
+                        <img class=" col l12 s12 m12 course-icon-svg center " height="70" width="70"
+                            alt="Round the Clock Doubt Support" data-src="/images/round_the_clock_doubt_support.svg">
+                    </div>
+                    <div class="row no-padding no-margin">
+                        <h4 class="col l12 s12 m12 bold no-padding no-margin ">Round the Clock Doubt Support</h4>
+                    </div>
+                    <div class="row">
+                        <p class="col l12 s12 m12"> Never get stuck due to a small error in your code anymore. With
+                            round the
+                            clock doubt support, get instant support from our online doubt support team and never let
+                            your coding pace get slow.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="col l5 offset-l1 s12 m4">
+            <div class="card hoverable about-card-free-resources">
+                <div class="card-content">
+                    <div class="row ">
+                        <img class=" col l12 s12 m12 course-icon-svg center " height="70" width="70"
+                            alt="Placement Guidance" data-src="/images/placement_guidance.svg">
+                    </div>
+
+
+                    <div class="row no-padding no-margin">
+                        <h4 class="col l12 s12 m12 bold no-padding no-margin"> Placement Guidance</h4>
+                    </div>
+
+                    <div class="row">
+                        <p class="col l12"> Always stay updated about the upcoming placement opportunities all around
+                            India. Students are made aware of the latest interview opportunities of all product based
+                            companies. Students also get referrals and be a part of internal team hiring with our Alumni
+                            network in companies like Google, Microsoft, Amazon, Adobe and many more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col l5  s12 m4">
+            <div class="card hoverable about-card-free-resources">
+                <div class="card-content">
+                    <div class="row  ">
+                        <img class=" col l12 s12 m12 course-icon-svg center   " height="70" width="70"
+                            alt="Classroom Discussions" data-src="/images/classroom_discussions.svg">
+                    </div>
+                    <div class="row no-padding no-margin">
+                        <h4 class="col l12 s12 m12 bold no-padding no-margin"> Classroom Discussions</h4>
+                    </div>
+
+                    <div class="row">
+                        <p class="col l12 s12 m12">Get a class like experience where doubts and extra tips are discussed
+                            during
+                            the class. Students also learn about some extra techniques and tricks to solve certain
+                            problems with the personal experience of the teacher. Students also get habitual to the
+                            classes and follow a proper schedule of classes which helps them with continuity. Get a part
+                            of healthy competition among your peers and learn from their mistakes and doubts.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+    </div>
+</div>
+
+<div class="card  row section">
+    <h3 class="col l12 s12 m12 center  bolder   " style="font-size:2.2rem">
+        Must Do Interview Question List for FAANG
+    </h3>
+    <div class="col l5 s12 m5 offset-l1 offset-m1">
+
+        <h4 class="row col l12 s12 m12">This list of 500 questions has been made by the Pepcoding Team after solving all
+            questions from GFG, Leetcode, Hackerrank and other famous resources. This list has been culminated without
+            any repetitiveness and enough questions on each topic to develop a genuine insight to solve almost any
+            technical question.
+        </h4>
+        <h4 class="row col l12 s12 m12"> Solving this list of questions has helped more than 300 students to get placed
+            in tier-1 product based companies. Anyone who has solved this complete list of question is in close
+            proximity of a great placement ahead. Do try this list and we will love to share your success story with the
+            world.
+        </h4>
+    </div>
+    <div class="col l5 offset-l1 important-questions-icon">
+        <img class="course-icon-svg center" height="170" width="170" alt="Classroom Discussions"
+            data-src="/images/JobTrofy.svg" src="/images/JobTrofy.svg">
+    </div>
+    <div class="col l2 s6 m3 offset-l5 offset-s3 offset-m4 center">
+        <br>
+        <a class="start-button    bolder view-more" target="_blank"
+            href="/most-important-interview-questions-list-for-product-based-companies">
+            Start Solving
+            <span class="view-more-arrow"> ⟶</span>
+        </a>
+    </div>
+</div>
+
+<div class="card  row section">
+    <h3 class="col l12 s12 m12 center  bolder" style="font-size:2.2rem">
+            FAANG List 2.0
+    </h3>
+    <div class="col l5 s12 m5 offset-l1 offset-m1">
+
+        <h4 class="row col l12 s12 m12">The complete list of questions covered in our Level-2 course. This list consists of questions across all difficulty levels - Easy, Medium and Hard. All the hot topics asked in the interviews - Dynamic Programming, Graphs, Arrays, Strings, Searching and Sorting, are covered in this list. The questions are clubbed such that similar techniques can be applied to solve these questions and related to each other in a way.
+        </h4>
+        <h4 class="row col l12 s12 m12"> Covering this list of questions makes the student placement ready and almost at the peak of their preparation. It stands a very high chance that one of your next interview questions is one from this list. Our past success has been from students who solved majority questions from this questionnaire and got similar questions to the concepts used in solving this list of questions.
+        </h4>
+    </div>
+    <div class="col l5 offset-l1 important-questions-icon">
+        <img class="course-icon-svg center" height="170" width="170" alt="JobTrofy.svg"
+            data-src="/images/JobTrofy.svg" src="/images/JobTrofy.svg">
+    </div>
+    <div class="col l2 s6 m3 offset-l5 offset-s3 offset-m4 center">
+        <br>
+        <a class="start-button bolder view-more" target="_blank"
+            href="/faangList2.0">
+            Start Solving
+            <span class="view-more-arrow"> ⟶</span>
+        </a>
+    </div>
+</div>
+<div class="  row section">
+
+    <div class="faq col l10 offset-l1 s12 m10 offset-m1">
+    
+        
+            <h2 class="bold center section-heading-l">
+                        <span class="underline">Frequently Asked Questions</span></h2>
+    
+            <ul class="collapsible cl2 col l12 ">
+    
+    
+              <li class="active ">
+                <div class="collapsible-header bolder"><i class="  fa fa-plus fa-str-bg1 s1 "></i>What are the differences between the 3 courses?</div>
+                <div class="collapsible-body"><span>The courses are divided as per the difficulty level of questions discussed and the level of concepts taught in each course. Foundation course is designed for a beginner, Levelup is for students who are into competitive programming and get a better insight of data structure and algorithms. Interview Prep is for students who are nearing their placement or internship season and are looking to practice and increase their volume of questions.</span></div>
+              </li>
+    
+              <li class=" ">
+                <div class="collapsible-header bolder"><i class="  fa fa-plus fa-str-bg1 s1 "></i>What is discussed in the Foundation course?</div>
+                <div class="collapsible-body"><span>Level-1 or Foundation consists of questions and concepts which are enough for a first time coder or a beginner in programming. These questions give a beginner enough insight of a data structure or algorithm and make them capable of solving easy and medium difficulty level questions. An absolute beginner or a student with very few hours of coding experience must start from here.</span></div>
+              </li>
+    
+              <li class=" ">
+                <div class="collapsible-header bolder"><i class="  fa fa-plus fa-str-bg1 s1 "></i>What is discussed in the Levelup course?</div>
+                <div class="collapsible-body"><span>The Levelup course is an extension of Foundation. Each topic is discussed in much more depth and newer concepts are introduced with this course. The difficulty level of questions discussed here are more as compared to the Foundation questions. We also cover competitive programming in this course. Students who wish to create insights on Algorithms and Data Structures must go through this course once. This course helps the students improve their problem solving ability and also increases the number of ways to solve each question. The Foundation course is a strong prerequisite for this course. If a student has prior knowledge of Data Structure and Algorithms, they can start with this course.</span></div>
+              </li>
+    
+              <li class=" ">
+                <div class="collapsible-header bolder"><i class="  fa fa-plus fa-str-bg1 s1 "></i>What is discussed in the Interview Preparation course?</div>
+                <div class="collapsible-body"><span>The Interview Preparation course is a collection of questions commonly asked in interviews of product based companies. The motive of this course is to increase the breadth of knowledge for students so that they have a wide array of questions with them. In this course, the approach to solve around 500-600 questions is discussed rather than coding them. This course is apt for students who are nearing their placement or internship seasons and require to practice as much possible for the upcoming interviews. This course is for students who are comfortable on Data Structure and Algorithms and want to practice questions for their upcoming interviews.</span></div>
+              </li>
+    
+              <li class=" ">
+                <div class="collapsible-header bolder"><i class="  fa fa-plus fa-str-bg1 s1 "></i>Will the Foundation course be enough to crack interviews?</div>
+                <div class="collapsible-body"><span>As the name suggests, the Foundation course focuses on concept building rather than solving interview questions. This course is a part of the journey to clear the coding interview and getting a job at a top tier product based company.</span></div>
+              </li>
+    
+              <li class=" ">
+                <div class="collapsible-header bolder"><i class="  fa fa-plus fa-str-bg1 s1 "></i>Which course should I start with?</div>
+                <div class="collapsible-body"><span>If you are a beginner, you must start with the Foundation course followed by Levelup and/or Interview Preparation. If you have basic knowledge of Data Structures and Algorithms, you can start with either Levelup or Interview Preparation.</span></div>
+              </li>
+    
+              <li class=" ">
+                <div class="collapsible-header bolder"><i class="  fa fa-plus fa-str-bg1 s1 "></i>What is the difference between the paid courses and the free courses?</div>
+                <div class="collapsible-body"><span>As far as content is concerned, both our paid and free courses cover the same content. However the paid courses have some additional benefits. Firstly, the students follow a schedule and feel the class like-experience with fellow students. Doubts are resolved instantly with the instructor helping them with the code and explanation in the class itself. Students come across different doubts in class which helps them with their learning as well. A healthy competition is maintained throughout the course where the students grind and compete with each other. Some extra questions and some cheeky techniques are also shared during the class which the instructor encountered and solved himself. Students get round the clock doubt support to clear their doubts even when they are not attending the classes. All in all, the paid courses creates a personal touch of the students with the instructors and improves their learning experience with all the mentioned facilities.</span></div>
+              </li>
+    
+              <li class=" ">
+                <div class="collapsible-header bolder"><i class="  fa fa-plus fa-str-bg1 s1 "></i>What should be the sequence to attempt any question here on the portal?</div>
+                <div class="collapsible-body"><span>Each question window has 5 tabs - Question, Editor, History, Solution and Stats. The online judge question is available in the Question tab where the description, constraints, input and output format and sample input and sample output is given. A question video is also embedded on the question tab for a better and clear explanation of the question. Sometimes, the question videos consist of Hints as well to solve the question. Students can start attempting the question after this in the Editor Tab. The Editor Tab consists of a snippet code where you can write your program for the question. This is where you can run or submit your code for each question. The Solution Tab consists of the solution video along with the complete explanation and the code for the problem. Students are advised to see the solution video even after submitting the question on their own. This might help them get a better approach to solve the question and develop an insight to solve further such questions.</span></div>
+              </li>
+            </ul> 
+        </div>
+    </div></div>
+
+<div class="success-stories row">
+    <div class="col l12">
+
+        <h2 class="bold center section-heading-l">
+                    <span class="underline"> Our Success Stories </span></h2>
+        <div class="col l3 s12 m4">
+            <div class="card hoverable">
+                <div class="card-content">
+                    <div class="youtube" data-src="WPGhoSjIRKM"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col l3 s12 m4">
+            <div class="card hoverable">
+                <div class="card-content">
+                    <div class="youtube" data-src="P8Lh-fUUfVQ"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col l3 s12 m4">
+            <div class="card hoverable">
+                <div class="card-content">
+                    <div class="youtube" data-src="B1IR9_uUKKQ"></div>
+                </div>
+            </div>
+        </div>
+        <div class="col l3 s12 m4">
+            <div class="card hoverable">
+                <div class="card-content">
+                    <div class="youtube" data-src="SsnpfT63SxA"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+
+<style>
+    .reviewSection {
+        position: relative;
+    }
+
+    .review-card1 {
+        position: absolute;
+        padding: 5%;
+    }
+</style>
+   </main>
+   <div class="live-editor">
+       <div id="editor-support-out" class="sidenav  sidenav-editor-window editor-section black right-aligned">
+           <div class="row no-margin doubt-header">
+               <div class="col l1 s3 m3 row no-margin no-padding ">
+                   <a href="/index" class="brand-logo">
+                       <img class="logo" src="/images/logo.png" alt="logo">
+                   </a>
+               </div>
+               <div class="col l2 s2 m2 no-padding " title="Save" style="display: inline-flex;">
+                   <div id="liveEditorId"></div>&nbsp;
+               </div>
+   
+   
+               <div class="col l6 s6 m6 no-padding">
+   
+                   <div class="selectLang d-flex editorOptions  ">
+                       <div class="item">
+                         <select id="liveEditor_lang_select" class="code-lang-select text-upper" title="Select Language"></select>
+                       </div>
+                       <div class="item settings">
+                         <i class="fa fa-gear  modal-trigger" href="#liveEditor_modalSetting"></i>
+                        
+                         <i id="liveEditor_format_code" class="fa fa-format  format-code" aria-hidden="true" title="Format your code">{ } </i>
+                         <i id="liveEditor_reset_code" class="fa fa-refresh  code-refresh" aria-hidden="true" title="Reset your code"></i>
+                         <i id="liveEditor_full_screen" class="fa fa-arrows-alt code-fullscreen" aria-hidden="true" title="FullScreen"></i>
+                       </div>
+                       <div class="item">
+                         <div class="">
+                           <i id="liveEditor_compile_code" class="fa fa-play code-run btn-compile" title="Run"></i>
+                           Run
+                         </div>
+                       </div>
+                       
+                       
+                       <div id="liveEditor_modalSetting" class="modal small">
+                         <div class="modal-content">
+                           <h4 class="row col l12 s12 center">
+                             Editor Settings
+                           </h4>
+                           <div class="row">
+                             <h4 class="col l6">
+                               Font Size
+                             </h4>
+                             <select id="liveEditor_font_select" title="Select Editor Font Size" class="code-font-select col l6"></select>
+                           </div>
+                           <div class="row">
+                             <h4 class="col l6">
+                               Key Binding
+                             </h4>
+                             <select id="liveEditor_key_binding" title="Select Editor Key Binding" class="key-binding col l6"></select>
+                           </div>
+                           <div class="divider"></div>
+                           <div class="row">
+                             <h4 class="col l12 center">
+                               Keyboard Shortcut
+                             </h4>
+                           </div>
+                           <ul class="collection">
+                             <li class="collection-item list-item">
+                               <span class="col l6 s6">
+                                 fold
+                               </span>
+                               <span class="col l6 s6">
+                                 Alt-L|Ctrl-F1
+                               </span>
+                             </li>
+                             <li class="collection-item list-item">
+                               <span class="col l6 s6">
+                                 unfold
+                               </span>
+                               <span class="col l6 s6">
+                                 Alt-Shift-L|Ctrl-Shift-F1
+                               </span>
+                             </li>
+                             <li class="collection-item list-item">
+                               <span class="col l6 s6">
+                                 Gotoend
+                               </span>
+                               <span class="col l6 s6">
+                                 Ctrl-End
+                               </span>
+                             </li>
+                             <li class="collection-item list-item">
+                               <span class="col l6 s6">
+                                 Gotostart
+                               </span>
+                               <span class="col l6 s6">
+                                 Ctrl-Home
+                               </span>
+                             </li>
+                             <li class="collection-item list-item">
+                               <span class="col l6 s6">
+                                 Movelinesup
+                               </span>
+                               <span class="col l6 s6">
+                                 Alt-Up
+                               </span>
+                             </li>
+                             <li class="collection-item list-item">
+                               <span class="col l6 s6">
+                                 Movelinesdown
+                               </span>
+                               <span class="col l6 s6">
+                                 Alt-Down
+                               </span>
+                             </li>
+                             <li class="collection-item list-item">
+                               <span class="col l6 s6">
+                                 Undo
+                               </span>
+                               <span class="col l6 s6">
+                                 Ctrl-Z
+                               </span>
+                             </li>
+                             <li class="collection-item list-item">
+                               <span class="col l6 s6">
+                                 Redo
+                               </span>
+                               <span class="col l6 s6">
+                                 Ctrl-Shift-Z|Ctrl-Y
+                               </span>
+                             </li>
+                             <li class="collection-item list-item">
+                               <span class="col l6 s6">
+                                 Replace
+                               </span>
+                               <span class="col l6 s6">
+                                 Ctrl-H
+                               </span>
+                             </li>
+                             <li class="collection-item list-item">
+                               <span class="col l6 s6">
+                                 Togglecomment
+                               </span>
+                               <span class="col l6 s6">
+                                 Ctrl-/
+                               </span>
+                             </li>
+                             <li class="collection-item list-item">
+                               <span class="col l6 s6">
+                                 ToggleBlockComment
+                               </span>
+                               <span class="col l6 s6">
+                                 Ctrl-Shift-/
+                               </span>
+                             </li>
+                             <li class="collection-item list-item">
+                               <span class="col l6 s6">
+                                 Removeline
+                               </span>
+                               <span class="col l6 s6">
+                                 Ctrl-D
+                               </span>
+                             </li>
+                           </ul>
+                         </div>
+                       </div>                </div>
+               </div>
+               <div class="col l1 s1 m1 right" title="Close Editor">
+                   <a class="sidenav-close right " href="#">
+                       <i class="fa fa-times fa-2x " aria-hidden="true"></i>
+                   </a>
+               </div>
+   
+           </div>
+           <div id="liveCodeContainer" class="card-content row code-container">
+               <div id="liveEditor" class="col l12 s12 m12 editor "></div>
+   
+   
+               <div class="col l12 m12 s12 row  no-padding">
+                   <div class="col l12 no-margin no-padding  editor-footer no-padding ">
+                       <ul id="liveEditor_collapsible" class="collapsible no-margin colap-code  ">
+                           <li class="no-margin">
+                               <div class="collapsible-header  row no-margin console">
+                                   <div class="col l10 s10">
+                   
+                                       <span>&nbsp; &nbsp; <i class="fa fa-caret-up  downArrowToRotate"></i>
+                                           <span class="hide-on-med-and-down">
+                   
+                                           </span> Console
+                                       </span>
+                                       <span>
+                                           <i class="fa  fa-clock-o"></i>
+                                           <span id="liveEditor_compile_time" class="hide-on-med-and-down"> Time</span>
+                                       </span>
+                                       <span>
+                                           <i class="fa fa-microchip"></i><span class="hide-on-med-and-down" id="liveEditor_compile_memory">
+                                               Memory</span>
+                                       </span>
+                                       <span id="liveEditor_compile_status" class="op-heading">
+                                           <i class="fa fa-check-circle"></i>
+                   
+                                           <span id="liveEditor_message" class="hide-on-med-and-down">Status</span>
+                                   </div>
+                   
+                                   <div class="col l2">
+                   
+                                   </div>
+                               </div>
+                               <div class="collapsible-body" style="padding: 0px 10px;">
+                   
+                   
+                                   <div class="row  " style="margin-bottom:2px">
+                                       <div class="col s12">
+                                           <ul id="liveEditor_tab" class="tabs  output-tabs">
+                                               <li id="liveEditor_tab_output" class="tab col s3 active">
+                                                   <a class="active bolder" href="#liveEditor_output_box">output</a>
+                                               </li>
+                                               <li id="liveEditor_tab_input" class="tab col s3"><a class="bolder" id='hello'
+                                                       href="#liveEditor_input_box">input</a>
+                                               </li>
+                                           </ul>
+                                       </div>
+                                       <div id="liveEditor_output_box" class="col s12" style="height: 20vh">
+                                           <pre id="liveEditor_compile_actual_output"
+                                               placeholder="Add your own input here , else programe will run against default test case"
+                                               class="output no-margin " style="height:100%;overflow-y:scroll" rows="6" autocomplete="off"
+                                               autocorrect="off" autocapitalize="off" spellcheck="false"></pre>
+                   
+                                           <div id="liveEditor_submit_actual_output">
+                                           </div>
+                                       </div>
+                                       <div id="liveEditor_input_box" class="col s12" style="height: 100%;line-height: 1rem;width: 98%;">
+                                           <textarea class="customArea no-margin" id="liveEditor_customInput" style="border:none;height: 100% "
+                                               placeholder="Add your own input here , else programe will run against default test case"
+                                               rows="6" autocomplete="off" autocorrect="off" autocapitalize="off"
+                                               spellcheck="false"></textarea>
+                                       </div>
+                                   </div>
+                   
+                               </div>
+                           </li>
+                   
+                       </ul>
+                       <input type="hidden" value="true" id="liveEditor_compileOnly">
+                   </div>
+               </div>
+   
+               <div id="slide-out-editorslist"
+                   style="transform: translateX(105%);width:36vw;top: 0;height: 90%;overflow:auto;"
+                   class="sidenav right white no-margin hide">
+   
+                   <table>
+                       <thead>
+                           <tr>
+                               <th>Id</th>
+                               <th>Name</th>
+                               <th>
+                                   <a href="#" class="sidenav-close">
+                                       <i class="fa fa-times vertical-text-middle" aria-hidden="true"></i>
+                                   </a>
+                               </th>
+                           </tr>
+                       </thead>
+                       <tbody id="liveEditorNotesList" class="black-text">
+                       </tbody>
+                   </table>
+               </div>
+           </div>
+       </div>
+   </div>   <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.3/js/materialize.min.js"></script>
+   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.2.5/ace.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-beautify/1.13.0/beautify.min.js"></script>
+   <script type="text/javascript" src="/js/bundle/common.js?v1.3.3"></script>
+   <script type="text/javascript" src="/js/bundle/resources/base.js?v1.3.3"></script>
+   <script type="text/javascript" src="/js/bundle/codeEditorWrapper.js?v1.3.3"></script>
+   <script type="text/javascript" src="/js/bundle/liveEditor.js?v1.3.3"></script>
+</body>
+<input type="hidden" name="courseId" value="" />
+<input type="hidden" name="lectureId" value="" />
+<input type="hidden" name="resourceId" value="" />
+<div id="sidenavOerlay" onclick="openCloseSideNav();" class="sidenav-overlay"></div>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+   var twakTo = (function () {
+      Tawk_API.maximize();
+      Tawk_API.showWidget()
+   });
+
+
+   document.addEventListener("DOMContentLoaded", function (event) {
+      $('.payCoin').attr('disabled', false);
+      $('.payCoin').on('click', function () {
+         $('#payCoinForm').submit();
+         $(this).attr('disabled', true);
+      });
+
+
+      if (window.history.replaceState) {
+         window.history.replaceState(null, null, window.location.href);
+      }
+
+      $('.collapsible').collapsible({ inDuration: 100, outDuration: 100 });
+      $('.sidenav').sidenav({ edge: 'left' });
+      $('.sidenav-doubts-list').sidenav({ edge: 'right', });
+      $('.sidenav-doubt-window').sidenav({ edge: 'right', onOpenStart: window.PEP.InitLiveDoubts, onCloseStart: window.PEP.onDoubtWindowClosed });
+      $('.sidenav-editor-window').sidenav({ edge: 'right', onOpenStart: window.PEP.InitlizeLiveEditor });
+      $('.sidenav-notes-window').sidenav({ edge: 'right', onOpenStart: window.PEP.InitlizeLiveNotes });
+      $('.slide-out-admin-chat').sidenav({ edge: 'right', onOpenStart: window.PEP.openDoubtWindow, onCloseStart: window.PEP.closeDoubtWindow });
+      var modals = document.querySelectorAll('.modal')
+      for (var i = 0; i < modals.length; i++) {
+         M.Modal.init(modals[i]);
+      }
+
+   });
+
+   function siteThemeSelect(theme) {
+      PEP.createCookie('theme', theme, 365, true);
+      document.body.classList.remove('theme1');
+      document.body.classList.remove('theme2');
+      document.body.classList.remove('theme3');
+      document.body.classList.remove('theme4');
+      document.body.classList.add(theme);
+      saveUserPreferences(theme);
+   }
+
+
+   window.addEventListener("pageshow", function (event) {
+      var historyTraversal = event.persisted ||
+         (typeof window.performance != "undefined" &&
+            window.performance.navigation.type === 2);
+      if (historyTraversal) {
+         // Handle page restore.
+         window.location.reload();
+      }
+   });
+</script>
+<script type="text/javascript">
+   var key = $('#tawkKey').val();
+
+   if (key && key.length > 0) {
+      var Tawk_API = {
+         onLoad: function () {
+
+            //if ($('#isShowDoubtSupport').val() == 'true') {
+            Tawk_API.hideWidget()
+            Tawk_API.minimize();
+            // }
+         },
+      };
+      var Tawk_LoadStart = new Date();
+      (function () {
+         var s1 = document.createElement("script"),
+            s0 = document.getElementsByTagName("script")[0];
+         s1.async = true;
+         s1.src = 'https://embed.tawk.to/' + key + '/default';
+         s1.charset = 'UTF-8';
+         s1.setAttribute('crossorigin', '*');
+         s0.parentNode.insertBefore(s1, s0);
+      })();
+   }
+
+
+</script>
+<!-- Start Alexa Certify Javascript -->
+<script type="text/javascript">
+   _atrk_opts = { atrk_acct: "pU35u1SZw320l9", domain: "pepcoding.com", dynamic: true };
+   (function () { var as = document.createElement('script'); as.type = 'text/javascript'; as.async = true; as.src = "https://certify-js.alexametrics.com/atrk.js"; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(as, s); })();
+</script>
+<noscript><img src="https://certify.alexametrics.com/atrk.gif?account=pU35u1SZw320l9" style="display:none" height="1"
+      width="1" alt="" /></noscript>
+<!-- End Alexa Certify Javascript -->
+<!--End of Tawk.to Script-->
+
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v8.0"
+    nonce="N6K0H0k7"></script>
+
+<script type="text/javascript">
+
+    window.onload = function () {
+        showDeferedData();
+    }
+
+    function showDeferedData() {
+        var imgDefer = document.getElementsByTagName('img');
+        var youtube = document.querySelectorAll('.youtube');
+        for (var i = 0; i < imgDefer.length; i++) {
+            if (imgDefer[i].getAttribute('data-src')) {
+                imgDefer[i].setAttribute('src', imgDefer[i].getAttribute('data-src'));
+            }
+        }
+        for (var j = 0; j < youtube.length; j++) {
+            var iframe = document.createElement("iframe");
+            iframe.setAttribute("frameborder", "0");
+            iframe.setAttribute("height", "150");
+            iframe.setAttribute("allow", "accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture");
+            iframe.setAttribute("src", "https://www.youtube.com/embed/" + youtube[j].dataset.src + "?rel=0");
+            iframe.style.width = "100%";
+            iframe.setAttribute("allowfullscreen", "");
+
+            youtube[j].innerHTML = "";
+            youtube[j].appendChild(iframe);
+        }
+    }
+
+    $(document).ready(function () {
+        //  setInterval(function () {
+        //     $(".review-card1").css("transform", "translateX(" + $(this).index() * -450 + "px)");
+        //  }, 1000);
+        $(".reviewSection > .review-card1:gt(0)").hide();
+
+        setInterval(function () {
+            $('.reviewSection > .review-card1:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('.reviewSection');
+        }, 5000);
+    });
+
+</script>
+
+
+<style>
+</style>
+
+</html>
