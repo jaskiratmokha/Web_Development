@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fetch text</title>
+</head>
+<body>
+    <p id="para"></p>
+    <script>
+        fetchtext()
+        .then(response=>{
+            console.log("hurray");
+        })
+        .catch(error=>{
+            console.log("error!");
+            console.error(error);
+        })
+
+        async function fetchtext(){
+            const response=await fetch('text.txt');
+            const text=await response.text();
+            document.getElementById('para').innerText=text;
+        }
+    </script>
+</body>
+</html>
