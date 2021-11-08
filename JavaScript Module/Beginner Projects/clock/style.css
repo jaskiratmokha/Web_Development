@@ -1,0 +1,27 @@
+
+/* background color as linear gradient */
+body {
+    background: linear-gradient(to right, rgb(0, 0, 0), rgb(255, 255, 255));
+}
+
+div{
+    width: 700px;
+    height: 150px;
+    border: 6px solid rgb(121, 121, 121);
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);
+}
+
+div p{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Orbitron', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+
