@@ -1,0 +1,24 @@
+.block{
+    background-color: blanchedalmond;
+}
+.inline{
+    background-color: burlywood;
+    /* height width dont work on inline elements */
+    width: 40px;
+    height: 40px;
+}
+.inline-block{
+    display: inline-block;
+    background-color: chocolate;
+    /* height width works on inline-block elements */
+    width: 200px;
+    height: 40px;
+}
+.blocktoinline{
+    display: inline;
+    background-color: darkkhaki;
+}
+.inlinetoblock{
+    display: block;
+    background-color: darkolivegreen;
+}
