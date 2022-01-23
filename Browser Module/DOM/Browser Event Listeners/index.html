@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listeners</title>
+</head>
+<body>
+    <button>Say My Name</button>
+    <div>What is my favourite color</div>
+    <div>What is my favourite fruit</div>
+    <script>
+        let btn=document.querySelector('button');
+        let ordiv=document.querySelectorAll('div');
+        btn.addEventListener('click',function(){
+            let p=document.createElement('p');
+            p.innerHTML='Script';
+            document.body.appendChild(p);
+
+        });
+        for(let a=0;a<ordiv.length;a++){
+            ordiv[a].addEventListener('click',function(){
+            let p=document.createElement('p');
+            p.innerHTML='Orange';
+            document.body.appendChild(p);
+        })
+        }
+    </script>
+</body>
+</html>
