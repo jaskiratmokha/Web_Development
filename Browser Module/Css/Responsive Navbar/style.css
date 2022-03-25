@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+}
+.logo{
+    font-size: 2rem;
+    margin: 0.5rem;
+    color: white;
+}
+.navbar-links ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar-links li {
+    list-style: none;
+}
+
+.navbar-links li a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    height: 100%;
+    font-size: 1.2rem;
+}
+.navbar-links li:hover {
+    background-color: #555;
+}
+.hamburger{
+    display: none;
+}
+.hamburger i{
+    color: white;
+    font-size: 2rem;
+}

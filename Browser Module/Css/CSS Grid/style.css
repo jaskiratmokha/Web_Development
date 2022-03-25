@@ -1,0 +1,18 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.project-grid{
+  background-color: red;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  /* grid-gap: 20px; */
+}
+.project-item{
+  width: 30vw;
+}
+.project-item>img{
+  height: 100%;
+  width: 100%;
+}
