@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(18, 18, 56);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 60%;
+    background-color: #fff;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    border-radius: 20px;
+}
+form>h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+form>input{
+    height: 3rem;
+    width: 90%;
+    padding: 10px;
+    background-color: lightgrey;
+    border: none;
+    
+}
+form>textarea{
+    height: 10rem;
+    width: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: lightgrey;
+    border: none;
+
+}
+form>button{
+    height: 3rem;
+    width: 30%;
+    border-radius: 2rem;
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
