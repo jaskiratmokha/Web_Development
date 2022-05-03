@@ -1,0 +1,1 @@
+ReactDOM.render(<h1>Hello, everyone! my name is Jaskirat Singh</h1>, document.getElementById("root"));
