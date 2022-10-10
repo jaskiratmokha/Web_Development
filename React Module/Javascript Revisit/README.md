@@ -10,3 +10,29 @@
 7. [Reference and Primitive Types](https://www.freecodecamp.org/news/primitive-vs-reference-data-types-in-javascript/)
 8. [Array Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 
+
+## Understanding let and const
+
+let and const basically replace var . You use let instead of var and const instead of var if you plan on never re-assigning this "variable" (effectively turning it into a constant therefore)."let" is used for assigning variable values and "const" is used for assigning constant value which we do not intend to change later.
+
+## Arrow Functions in ES6
+
+Arrow functions are a different way of creating functions in JavaScript. Besides a shorter syntax, they offer advantages when it comes to keeping the scope of the this keyword. 
+
+```
+
+function callMe(name) {
+console.log(name);
+}
+```
+
+Now the above statement can be written in the format of arrow functions 
+
+```
+const callMe=name=>name;
+```
+
+[Understanding more about arrow functions in ES6](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions)
+
+
+
