@@ -43,3 +43,35 @@ npm start
 ```
 
 This will start the development server and open your app in the browser. You can now start building your React app.
+
+# What is JSX in React?
+
+JSX (JavaScript XML) is an extension of JavaScript syntax used in React to write HTML-like code for creating React elements. It allows you to write HTML-like syntax in your JavaScript code, which is then transformed into actual JavaScript code by a transpiler like Babel.
+
+JSX makes it easier to create and manipulate React elements in a more intuitive way, similar to how you would write HTML markup. Instead of manually creating elements with the React.createElement() function, JSX allows you to write code like this:
+
+```
+const element = <h1>Hello, world!</h1>;
+```
+
+This code looks like HTML markup, but it's actually a JavaScript expression that creates a React element. When this code is compiled, it gets transformed into:
+
+```
+const element = React.createElement("h1", null, "Hello, world!");
+```
+
+This code creates a React element using the React.createElement() function, which takes three arguments: the type of element to create (in this case, "h1"), any attributes to apply to the element (null in this case), and the content of the element ("Hello, world!").
+
+JSX also allows you to embed JavaScript expressions within your HTML-like syntax using curly braces {}. For example:
+
+```
+const name = "Alice";
+const element = <h1>Hello, {name}!</h1>;
+```
+
+In this code, the value of the name variable is embedded within the h1 element using curly braces. When this code is compiled, it gets transformed into:
+
+```
+const name = "Alice";
+const element = React.createElement("h1", null, "Hello, ", name, "!");
+```
