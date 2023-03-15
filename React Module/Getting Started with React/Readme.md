@@ -75,3 +75,31 @@ In this code, the value of the name variable is embedded within the h1 element u
 const name = "Alice";
 const element = React.createElement("h1", null, "Hello, ", name, "!");
 ```
+
+# How data is passed via props in react
+
+In React, props (short for "properties") are used to pass data from one component to another.
+
+When a component is created, it can receive a set of props, which are essentially parameters or arguments. These props can be used to customize the behavior or appearance of the component.
+
+To pass data via props, a parent component can pass down data to its child components by including the data as an attribute in the child component's JSX tag. For example:
+
+```
+<ChildComponent dataProp={data} />
+```
+In this example, the parent component is passing down a prop called dataProp with the value of data to ChildComponent.
+
+The ChildComponent can then access the prop data by using props.dataProp within its code.
+
+```
+function ChildComponent(props) {
+  return (
+    <div>
+      <p>{props.dataProp}</p>
+    </div>
+  );
+}
+```
+In this example, ChildComponent renders the value of dataProp passed down from the parent component as a paragraph tag.
+
+By passing data via props, components can be made more modular and reusable, as they can be customized and configured for different use cases.
