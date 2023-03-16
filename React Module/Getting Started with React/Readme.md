@@ -103,3 +103,50 @@ function ChildComponent(props) {
 In this example, ChildComponent renders the value of dataProp passed down from the parent component as a paragraph tag.
 
 By passing data via props, components can be made more modular and reusable, as they can be customized and configured for different use cases.
+
+# Splitting "components" into "multiple components" in react
+
+In React, it is common practice to split larger components into smaller, reusable components. This is known as component composition or component splitting.
+
+There are many benefits to splitting components into smaller pieces:
+
+Reusability: Smaller components can be reused across the application, reducing the amount of duplicate code.
+
+Maintainability: Smaller components are easier to maintain because they have a single responsibility.
+
+Testing: Smaller components are easier to test because they have fewer moving parts.
+
+Performance: Smaller components can be more performant because they have a smaller render tree, which reduces the amount of work that needs to be done by React.
+
+To split a component into multiple components, you can look for areas of the component that have a clear responsibility and could be extracted into a separate component. For example, if you have a component that displays a list of items, you might extract the list item component into a separate component.
+
+Here's an example of splitting a component into multiple components in React:
+
+```
+function UserList(props) {
+  const users = props.users;
+
+  return (
+    <ul>
+      {users.map(user => (
+        <UserItem key={user.id} user={user} />
+      ))}
+    </ul>
+  );
+}
+
+function UserItem(props) {
+  const user = props.user;
+
+  return (
+    <li>
+      {user.name} - {user.email}
+    </li>
+  );
+}
+```
+
+In this example, the UserList component displays a list of users by mapping over the users prop and rendering a UserItem component for each user. The UserItem component is responsible for rendering a single user. By splitting the component into two smaller components, we have created two components that have clear responsibilities and can be reused across the application.
+
+
+
