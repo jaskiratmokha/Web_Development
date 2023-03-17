@@ -148,5 +148,44 @@ function UserItem(props) {
 
 In this example, the UserList component displays a list of users by mapping over the users prop and rendering a UserItem component for each user. The UserItem component is responsible for rendering a single user. By splitting the component into two smaller components, we have created two components that have clear responsibilities and can be reused across the application.
 
+# The concept of "Composition" and "child props"
 
+In React, composition refers to the process of combining small, independent components into larger ones. It is a way of building complex components by reusing smaller, simpler ones. Child props is one way of achieving composition in React.
 
+Child props is a technique where a parent component passes down data or functions to its child component as props. This allows the child component to receive the necessary information from its parent and use it to render itself. By using child props, we can create reusable components that can be combined in various ways to create more complex components.
+
+For example, let's say we have a parent component called "App" and a child component called "Header". We want to pass a title to the Header component from the App component. We can achieve this by using child props. Here's an example of how this can be done:
+
+```
+import React from 'react';
+import Header from './Header';
+
+function App() {
+  return (
+    <div>
+      <Header title="Welcome to my website" />
+      {/* Other components */}
+    </div>
+  );
+}
+
+export default App;
+
+// Header.js
+import React from 'react';
+
+function Header(props) {
+  return (
+    <div>
+      <h1>{props.title}</h1>
+      {/* Other header content */}
+    </div>
+  );
+}
+
+export default Header;
+```
+
+In this example, the App component is passing the title "Welcome to my website" to the Header component as a prop called "title". The Header component then receives this prop and renders it in an h1 tag.
+
+By using child props and composition in this way, we can create more modular and reusable components in React.
