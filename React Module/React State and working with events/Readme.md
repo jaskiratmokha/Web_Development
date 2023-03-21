@@ -133,3 +133,39 @@ return (
 export default App
 ```
 Explanation: First count variable is initialized with a random number using a random function and setRandomCount is used for updating the state of the count. Every time we click on the button onClick it calls the clickHandler function which sets the count variable again with a random number.
+
+# Adding Form Inputs in React
+In React, you can add form inputs using the form element and its child input elements like input, textarea, select, etc. Here is an example of a simple form with two input fields:
+```
+import React, { useState } from 'react';
+
+function MyForm() {
+  const [name, setName] = useState('');
+  const [email, setEmail] = useState('');
+
+  const handleSubmit = (event) => {
+    event.preventDefault();
+    console.log('Name:', name);
+    console.log('Email:', email);
+  }
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label>
+        Name:
+        <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+      </label>
+      <label>
+        Email:
+        <input type="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+      </label>
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+```
+In this example, we use the useState hook to create two state variables name and email, which will store the values of the input fields. We also define a handleSubmit function, which will be called when the form is submitted.
+
+Inside the form element, we have two label elements, each containing an input element. The value prop of each input element is set to the corresponding state variable (name and email). We also define an onChange event handler for each input, which will update the state variable when the user types into the input field.
+
+Finally, we have a button element with the type set to "submit". When this button is clicked, the handleSubmit function will be called, which will prevent the default form submission behavior and log the values of the input fields to the console.
