@@ -197,3 +197,37 @@ Note that calling the function returned by useState will also trigger a re-rende
 5. Repeat steps 2-4 for each piece of data that you want to manage as state.
 
 When working with multiple states, it's a good practice to group related state variables together into an object. This can make your code more organized and easier to manage. Additionally, you can use the useEffect hook to perform side effects based on changes to your state variables.
+
+#  Child-to-Parent Component Communication (Bottom-up)
+
+In React, component communication can happen in two ways: top-down (parent to child) and bottom-up (child to parent). Bottom-up communication occurs when a child component needs to pass data or trigger an event to its parent component.
+
+Here's an example of how you can implement bottom-up communication in React:
+
+1. Define a function in the parent component that will handle the data passed up from the child component:
+```
+function handleData(data) {
+  console.log(data);
+}
+```
+2. Pass the function down to the child component as a prop:
+```
+<ChildComponent onData={handleData} />
+```
+3. In the child component, define a function that will be called when the data needs to be passed up to the parent component:
+```
+function sendData() {
+  props.onData('Some data');
+}
+```
+4. Call the sendData() function whenever the child component needs to pass data up to the parent component. For example, you can add a button that calls this function when clicked:
+```
+<button onClick={sendData}>Send Data</button>
+```
+5. When the button is clicked, the sendData() function will call the handleData() function in the parent component with the data that was passed in:
+```
+function handleData(data) {
+  console.log(data); // Output: "Some data"
+}
+```
+This is just one example of how you can implement bottom-up communication in React. The key is to pass a function from the parent component down to the child component as a prop, and then call that function from the child component whenever data needs to be passed up to the parent component.
