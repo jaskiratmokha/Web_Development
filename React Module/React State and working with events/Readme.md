@@ -298,3 +298,57 @@ class MyForm extends React.Component {
 In the example above, the value of the input field is not controlled by React but is instead accessed via a ref to the input node in the DOM. When the form is submitted, the input's value can be accessed via the ref and used as needed.
 
 In summary, controlled components are components whose values are controlled by React, while uncontrolled components are components whose values are managed by the DOM. The choice between controlled and uncontrolled components depends on your specific use case and the level of control you need over the component's state.
+
+# Stateless vs Stateful components in React
+
+Stateless and stateful components are two different types of components in React that serve different purposes.
+
+Stateless Components:
+Stateless components, also known as functional components, are components that do not have state. In other words, they are pure functions that take in props and return JSX. Stateless components are useful for rendering UI elements that don't require state or lifecycle methods. They are also more lightweight and easier to test compared to stateful components.
+
+Example of a stateless component:
+```
+function MyComponent(props) {
+  return (
+    <div>
+      <h1>{props.title}</h1>
+      <p>{props.description}</p>
+    </div>
+  );
+}
+```
+In the example above, MyComponent is a stateless functional component that takes in props and returns some JSX based on the props.
+
+Stateful Components:
+Stateful components, also known as class components, are components that have state. In other words, they are components that can change their data over time, trigger updates, and re-render the UI. Stateful components are useful for building complex UIs that require state, logic, and data fetching.
+
+Example of a stateful component:
+```
+class MyComponent extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      count: 0,
+    };
+    this.handleIncrement = this.handleIncrement.bind(this);
+  }
+
+  handleIncrement() {
+    this.setState((prevState) => ({
+      count: prevState.count + 1,
+    }));
+  }
+
+  render() {
+    return (
+      <div>
+        <h1>Count: {this.state.count}</h1>
+        <button onClick={this.handleIncrement}>Increment</button>
+      </div>
+    );
+  }
+}
+```
+In the example above, MyComponent is a stateful class component that has an initial state of count: 0. When the handleIncrement method is called, the state is updated using setState, triggering a re-render of the UI with the updated count value.
+
+In summary, stateless components are useful for rendering UI elements that don't require state or lifecycle methods, while stateful components are useful for building complex UIs that require state, logic, and data fetching.
